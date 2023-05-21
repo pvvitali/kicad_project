@@ -1,4 +1,4 @@
-21675557562320502
+21677242292303511
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -90194,6 +90194,13 @@ varistor
 0
 2
 2
+Z_Package_TO
+TO-247-3_Horizontal_TabUp
+TO-247-3, Horizontal, RM 5.45mm, see https://toshiba.semicon-storage.com/us/product/mosfet/to-247-4l.html
+TO-247-3 Horizontal RM 5.45mm
+0
+3
+3
 Z_modules
 DIP-40_W15.24mm_Socket
 40-lead though-hole mounted DIP package, row spacing 15.24 mm (600 mils), Socket

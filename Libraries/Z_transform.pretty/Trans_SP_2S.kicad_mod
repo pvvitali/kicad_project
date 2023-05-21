@@ -16,7 +16,7 @@
   (fp_circle (center 0 -0.02) (end 12.489776 -0.02)
     (stroke (width 0.2) (type default)) (fill none) (layer "F.SilkS") (tstamp 5abb3d2d-1bcb-4d6b-a86b-59f2b921e21e))
   (pad "1" thru_hole circle (at -11.43 13.97) (size 2.5 2.5) (drill 0.9) (layers "*.Cu" "*.Mask") (tstamp f18f4f0b-f8dd-4cb0-9468-229ab37005cd))
-  (pad "2" thru_hole circle (at -15.24 10.16) (size 2.5 2.5) (drill 0.9) (layers "*.Cu" "*.Mask") (tstamp da306bb4-d4fb-41da-acb2-bf09d6cf55b2))
+  (pad "2" thru_hole circle (at -15.24 10.16) (size 2.8 2.8) (drill 1.2) (layers "*.Cu" "*.Mask") (tstamp da306bb4-d4fb-41da-acb2-bf09d6cf55b2))
   (pad "3" thru_hole circle (at -6.35 16.51) (size 2.5 2.5) (drill 0.9) (layers "*.Cu" "*.Mask") (tstamp 71886794-9824-406c-8e38-c836014cc8fa))
   (pad "4" thru_hole circle (at -13.97 -13.97) (size 2.5 2.5) (drill 0.9) (layers "*.Cu" "*.Mask") (tstamp 80ed81c7-4544-4bfe-a9bb-e916bbea3a32))
   (pad "5" thru_hole circle (at -7.62 -16.51) (size 2.5 2.5) (drill 0.9) (layers "*.Cu" "*.Mask") (tstamp 1385c739-9a4f-40ff-baf9-8452b233191b))
