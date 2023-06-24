@@ -3614,7 +3614,7 @@
     (property "Value" "16MHz" (at 71.12 59.69 90)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "" (at 81.28 58.42 0)
+    (property "Footprint" "Crystal:Crystal_HC49-4H_Vertical" (at 81.28 58.42 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 81.28 58.42 0)
