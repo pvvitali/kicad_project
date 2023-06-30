@@ -1,0 +1,15 @@
+18 2W
+Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal
+
+2n2 600v
+Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm
+
+2u 600V
+Capacitor_THT:C_Rect_L31.5mm_W15.0mm_P27.50mm_MKS4
+
+Screw_Terminal_01x01
+Z_pin:PinD2mm
+
+0,1u 600V
+Capacitor_THT:C_Rect_L26.5mm_W10.5mm_P22.50mm_MKS4
+
