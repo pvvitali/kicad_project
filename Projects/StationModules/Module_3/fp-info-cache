@@ -1,4 +1,4 @@
-21690750779755250
+21695818125013733
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -90202,6 +90202,20 @@ TO-247-3 Horizontal RM 5.45mm
 3
 3
 Z_connectors
+DB129V-7.62-2P-GN-S
+
+
+0
+2
+2
+Z_connectors
+DB129V-7.62-3P-GN-S
+
+
+0
+3
+3
+Z_connectors
 DG135T-10.16-02P
 
 
@@ -90257,6 +90271,13 @@ THT DIP DIL PDIP 2.54mm 15.24mm 600mil Socket
 0
 40
 40
+Z_pin
+PinD1_6mm
+
+
+0
+1
+1
 Z_pin
 PinD2mm
 
