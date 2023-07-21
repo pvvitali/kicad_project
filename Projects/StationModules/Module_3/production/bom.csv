@@ -1,0 +1,22 @@
+Designator,Footprint,Quantity,Value,LCSC Part #
+C1,CP_Radial_D8.0mm_P3.50mm,1,470uF 16V,C432444
+"C2, C3, C4",C_Rect_L24.0mm_W10.9mm_P22.50mm_MKT,3,470nF,C518924
+"C5, C6",C_Disc_D9.0mm_W5.0mm_P7.50mm,2,220pF,C2914701
+C7,CP_Radial_D8.0mm_P3.50mm,1,220uF 16V,C159828
+C8,1206,1,1nF,
+C9,C_Rect_L29.0mm_W11.0mm_P27.50mm_MKT,1,4.7uF,C2846750
+D1,D_SMC,1,B360,C110487
+D2,Diode_Bridge_Vishay_GBU,1,GBU15M,C970324
+F1,Fuseholder_Clip-5x20mm_Keystone_3517_Inline_P23.11x6.76mm_D1.70mm_Horizontal,1,Fuse,C3029536 2pts
+"H1, H2, H3, H4, H5",MountingHole_3.2mm_M3,5,MountingHole,
+J1,DB129V-7.62-3P-GN-S,1,Screw_Terminal_01x03,C395859
+J2,DB129V-7.62-2P-GN-S,1,Screw_Terminal_01x02,C395858
+J3,IDC-Header_2x05_P2.54mm_Vertical,1,~,
+"J4, J7",PinD1_6mm,2,Screw_Terminal_01x01,
+"J5, J6",PinD4mm,2,Screw_Terminal_01x01,
+"L1, L2",B82726S6123N020,2,2X3.3mH 12A,B82726S6123N020
+L3,L_12x12mm_H8mm,1,47uH,C2981394
+M1,AC_DC_12V2A,1,~,
+"R1, R2, R3, R4",1206,4,75k,
+U1,TO-263-5_TabPin3,1,LM2576S-5,C880552
+U2,DIP-4_W7.62mm,1,PC814,
