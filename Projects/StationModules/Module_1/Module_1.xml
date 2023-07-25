@@ -1,0 +1,3640 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<export version="E">
+  <design>
+    <source>D:\KiCad\Projects\StationModules\Module_1\Module_1.kicad_sch</source>
+    <date>22.07.2023 11:28:15</date>
+    <tool>Eeschema 7.0.2</tool>
+    <sheet number="1" name="/" tstamps="/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>Module_1.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="2" name="/DriverFet/" tstamps="/cd077219-492f-43c1-90b6-1d3e788e0d80/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>DriverFet.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+    <sheet number="3" name="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/">
+      <title_block>
+        <title/>
+        <company/>
+        <rev/>
+        <date/>
+        <source>PowerFet.kicad_sch</source>
+        <comment number="1" value=""/>
+        <comment number="2" value=""/>
+        <comment number="3" value=""/>
+        <comment number="4" value=""/>
+        <comment number="5" value=""/>
+        <comment number="6" value=""/>
+        <comment number="7" value=""/>
+        <comment number="8" value=""/>
+        <comment number="9" value=""/>
+      </title_block>
+    </sheet>
+  </design>
+  <components>
+    <comp ref="C1">
+      <value>0,1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">50V 100nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</field>
+        <field name="LCSC">C82601</field>
+        <field name="MFR.Part">CC1206KRX7R9BB104</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MFR.Part" value="CC1206KRX7R9BB104"/>
+      <property name="Description" value="50V 100nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="LCSC" value="C82601"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0b93cda9-1182-4d89-a8e1-7db31a53c133</tstamps>
+    </comp>
+    <comp ref="C2">
+      <value>0,1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">50V 100nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</field>
+        <field name="LCSC">C82601</field>
+        <field name="MFR.Part">CC1206KRX7R9BB104</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MFR.Part" value="CC1206KRX7R9BB104"/>
+      <property name="Description" value="50V 100nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="LCSC" value="C82601"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b5a47a01-8f12-43f6-abea-0d9d28fe2577</tstamps>
+    </comp>
+    <comp ref="C3">
+      <value>470uF 25V</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <fields>
+        <field name="Description">470uF 25V ±20% 440mA@120Hz Plugin,D8xL11.5mm Aluminum Electrolytic Capacitors - Leaded ROHS</field>
+        <field name="LCSC">C88730</field>
+        <field name="MFR.Part">25PX470MEFC8X11.5</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="MFR.Part" value="25PX470MEFC8X11.5"/>
+      <property name="Description" value="470uF 25V ±20% 440mA@120Hz Plugin,D8xL11.5mm Aluminum Electrolytic Capacitors - Leaded ROHS"/>
+      <property name="LCSC" value="C88730"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b8544615-1f75-4dc0-8064-8eac328c85b7</tstamps>
+    </comp>
+    <comp ref="C4">
+      <value>100uF</value>
+      <footprint>Capacitor_Tantalum_SMD:CP_EIA-7343-15_Kemet-W</footprint>
+      <fields>
+        <field name="Description">100uF 20V 900mΩ@100kHz ±10% CASE-D-7343 Tantalum Capacitors ROHS</field>
+        <field name="LCSC">C122302</field>
+        <field name="MFR.Part">T491D107K020AT</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="MFR.Part" value="T491D107K020AT"/>
+      <property name="Description" value="100uF 20V 900mΩ@100kHz ±10% CASE-D-7343 Tantalum Capacitors ROHS"/>
+      <property name="LCSC" value="C122302"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d1d3932-91ec-4f4e-bbc3-bd298fffb3b0</tstamps>
+    </comp>
+    <comp ref="C5">
+      <value>0,1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">50V 100nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</field>
+        <field name="LCSC">C82601</field>
+        <field name="MFR.Part">CC1206KRX7R9BB104</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MFR.Part" value="CC1206KRX7R9BB104"/>
+      <property name="Description" value="50V 100nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="LCSC" value="C82601"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>1bb1bb3b-de86-444d-9efe-1a2b7f9e5a0e</tstamps>
+    </comp>
+    <comp ref="C6">
+      <value>470uF 25V</value>
+      <footprint>Capacitor_THT:CP_Radial_D8.0mm_P3.50mm</footprint>
+      <fields>
+        <field name="Description">470uF 25V ±20% 440mA@120Hz Plugin,D8xL11.5mm Aluminum Electrolytic Capacitors - Leaded ROHS</field>
+        <field name="LCSC">C88730</field>
+        <field name="MFR.Part">25PX470MEFC8X11.5</field>
+      </fields>
+      <libsource lib="Device" part="C_Polarized_Small" description="Polarized capacitor, small symbol"/>
+      <property name="MFR.Part" value="25PX470MEFC8X11.5"/>
+      <property name="Description" value="470uF 25V ±20% 440mA@120Hz Plugin,D8xL11.5mm Aluminum Electrolytic Capacitors - Leaded ROHS"/>
+      <property name="LCSC" value="C88730"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Polarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="cap capacitor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e0083bbe-b45c-487d-91fd-2d226fbff5c7</tstamps>
+    </comp>
+    <comp ref="C7">
+      <value>0,1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">50V 100nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</field>
+        <field name="LCSC">C82601</field>
+        <field name="MFR.Part">CC1206KRX7R9BB104</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MFR.Part" value="CC1206KRX7R9BB104"/>
+      <property name="Description" value="50V 100nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="LCSC" value="C82601"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>dd40dcc2-3002-45f8-92ca-4048f67a01d2</tstamps>
+    </comp>
+    <comp ref="C8">
+      <value>0,1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">50V 100nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</field>
+        <field name="LCSC">C82601</field>
+        <field name="MFR.Part">CC1206KRX7R9BB104</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MFR.Part" value="CC1206KRX7R9BB104"/>
+      <property name="Description" value="50V 100nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="LCSC" value="C82601"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>805a675c-8e0b-4aa1-9827-591e62b042cf</tstamps>
+    </comp>
+    <comp ref="C9">
+      <value>10pF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">500V 10pF NP0 ±5% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</field>
+        <field name="LCSC">C469628</field>
+        <field name="MFR.Part">CC1206JRNPOBBN100</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MFR.Part" value="CC1206JRNPOBBN100"/>
+      <property name="Description" value="500V 10pF NP0 ±5% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="LCSC" value="C469628"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ad986e65-5aa1-4c31-9958-acddbf8c4ddc</tstamps>
+    </comp>
+    <comp ref="C10">
+      <value>10pF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">500V 10pF NP0 ±5% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</field>
+        <field name="LCSC">C469628</field>
+        <field name="MFR.Part">CC1206JRNPOBBN100</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MFR.Part" value="CC1206JRNPOBBN100"/>
+      <property name="Description" value="500V 10pF NP0 ±5% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="LCSC" value="C469628"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>98033d66-c1cb-4d56-bddd-b9596081a02e</tstamps>
+    </comp>
+    <comp ref="C11">
+      <value>0,1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">50V 100nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</field>
+        <field name="LCSC">C82601</field>
+        <field name="MFR.Part">CC1206KRX7R9BB104</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MFR.Part" value="CC1206KRX7R9BB104"/>
+      <property name="Description" value="50V 100nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="LCSC" value="C82601"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>709f4c09-4bd1-4199-ba33-667cb75c7168</tstamps>
+    </comp>
+    <comp ref="C12">
+      <value>0,1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">50V 100nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</field>
+        <field name="LCSC">C82601</field>
+        <field name="MFR.Part">CC1206KRX7R9BB104</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MFR.Part" value="CC1206KRX7R9BB104"/>
+      <property name="Description" value="50V 100nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="LCSC" value="C82601"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e62584ea-c85b-463b-9178-0d44eed148ec</tstamps>
+    </comp>
+    <comp ref="C13">
+      <value>0,33uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">50V 330nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROH</field>
+        <field name="LCSC">C274377</field>
+        <field name="MFR.Part">CC1206KRX7R9BB334</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MFR.Part" value="CC1206KRX7R9BB334"/>
+      <property name="Description" value="50V 330nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROH"/>
+      <property name="LCSC" value="C274377"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>bdcd437a-9359-4c7d-b8a6-343ac77e307a</tstamps>
+    </comp>
+    <comp ref="C14">
+      <value>0,33uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">50V 330nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROH</field>
+        <field name="LCSC">C274377</field>
+        <field name="MFR.Part">CC1206KRX7R9BB334</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MFR.Part" value="CC1206KRX7R9BB334"/>
+      <property name="Description" value="50V 330nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROH"/>
+      <property name="LCSC" value="C274377"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>25b38882-f65f-4cae-8b19-1fc8e74adb0f</tstamps>
+    </comp>
+    <comp ref="C15">
+      <value>0,33uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">50V 330nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROH</field>
+        <field name="LCSC">C274377</field>
+        <field name="MFR.Part">CC1206KRX7R9BB334</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MFR.Part" value="CC1206KRX7R9BB334"/>
+      <property name="Description" value="50V 330nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROH"/>
+      <property name="LCSC" value="C274377"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20f5f561-545a-47ac-a30e-40f31a0a926b</tstamps>
+    </comp>
+    <comp ref="C16">
+      <value>0,1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">50V 100nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</field>
+        <field name="LCSC">C82601</field>
+        <field name="MFR.Part">CC1206KRX7R9BB104</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MFR.Part" value="CC1206KRX7R9BB104"/>
+      <property name="Description" value="50V 100nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="LCSC" value="C82601"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8714f97d-9f77-49b9-99fb-2eb29ec3edd7</tstamps>
+    </comp>
+    <comp ref="C17">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">50V 1nF NP0 ±2% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</field>
+        <field name="LCSC">C527247</field>
+        <field name="MFR.Part">CC1206GRNPO9BN102</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MFR.Part" value="CC1206GRNPO9BN102"/>
+      <property name="Description" value="50V 1nF NP0 ±2% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="LCSC" value="C527247"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fb653936-af67-4201-a949-0fd402484c64</tstamps>
+    </comp>
+    <comp ref="C18">
+      <value>0,1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">50V 100nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</field>
+        <field name="LCSC">C82601</field>
+        <field name="MFR.Part">CC1206KRX7R9BB104</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MFR.Part" value="CC1206KRX7R9BB104"/>
+      <property name="Description" value="50V 100nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="LCSC" value="C82601"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7b96ecb9-022b-4850-afe8-920095e0155c</tstamps>
+    </comp>
+    <comp ref="C29">
+      <value>0,1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">50V 100nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</field>
+        <field name="LCSC">C82601</field>
+        <field name="MFR.Part">CC1206KRX7R9BB104</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MFR.Part" value="CC1206KRX7R9BB104"/>
+      <property name="Description" value="50V 100nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="LCSC" value="C82601"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8fc64115-51bf-466d-b0cd-6035ed285276</tstamps>
+    </comp>
+    <comp ref="C30">
+      <value>0,1uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">50V 100nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</field>
+        <field name="LCSC">C82601</field>
+        <field name="MFR.Part">CC1206KRX7R9BB104</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MFR.Part" value="CC1206KRX7R9BB104"/>
+      <property name="Description" value="50V 100nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="LCSC" value="C82601"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>4d694e23-972f-4018-97e3-977ff6927666</tstamps>
+    </comp>
+    <comp ref="D1">
+      <value>LL4148</value>
+      <footprint>Diode_SMD:D_MiniMELF</footprint>
+      <datasheet>http://www.vishay.com/docs/85557/ll4148.pdf</datasheet>
+      <fields>
+        <field name="Description">75V 500mW 1V@10mA 4ns 150mA LL-34 Switching Diode ROHS</field>
+        <field name="LCSC">C2891733</field>
+        <field name="MFR.Part">LL4148</field>
+      </fields>
+      <libsource lib="Diode" part="LL4148" description="100V 0.15A standard switching diode, MiniMELF"/>
+      <property name="MFR.Part" value="LL4148"/>
+      <property name="Description" value="75V 500mW 1V@10mA 4ns 150mA LL-34 Switching Diode ROHS"/>
+      <property name="LCSC" value="C2891733"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, MiniMELF"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>3b7d4628-77ac-4cff-a1c0-a4abb904270c</tstamps>
+    </comp>
+    <comp ref="D2">
+      <value>~</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <fields>
+        <field name="Description">619nm Red 60° Plugin,P=2.54mm Light Emitting Diodes (LED) ROHS</field>
+        <field name="LCSC">C3013853</field>
+        <field name="MFR.Part">TLHR5400</field>
+      </fields>
+      <libsource lib="Z_led" part="Led" description=""/>
+      <property name="MFR.Part" value="TLHR5400"/>
+      <property name="Description" value="619nm Red 60° Plugin,P=2.54mm Light Emitting Diodes (LED) ROHS"/>
+      <property name="LCSC" value="C3013853"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>05ce5113-1750-4bed-8403-753fb4abcd4d</tstamps>
+    </comp>
+    <comp ref="D3">
+      <value>~</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <fields>
+        <field name="Description">588nm~588nm yellow 60° Plugin Light Emitting Diodes (LED) ROHS</field>
+        <field name="LCSC">C5334366</field>
+        <field name="MFR.Part">TLHY4405</field>
+      </fields>
+      <libsource lib="Z_led" part="Led" description=""/>
+      <property name="MFR.Part" value="TLHY4405"/>
+      <property name="Description" value="588nm~588nm yellow 60° Plugin Light Emitting Diodes (LED) ROHS"/>
+      <property name="LCSC" value="C5334366"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5c630153-c4e0-4f56-8825-1e9455c3880f</tstamps>
+    </comp>
+    <comp ref="D4">
+      <value>~</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <fields>
+        <field name="Description">green Plugin,D=3.2mm Light Emitting Diodes (LED) ROHS</field>
+        <field name="LCSC">C3001646</field>
+        <field name="MFR.Part">TLHG4400</field>
+      </fields>
+      <libsource lib="Z_led" part="Led" description=""/>
+      <property name="MFR.Part" value="TLHG4400"/>
+      <property name="Description" value="green Plugin,D=3.2mm Light Emitting Diodes (LED) ROHS"/>
+      <property name="LCSC" value="C3001646"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>f2700778-0841-4a5b-a927-0558d3c7fea1</tstamps>
+    </comp>
+    <comp ref="D5">
+      <value>LL4148</value>
+      <footprint>Diode_SMD:D_MiniMELF</footprint>
+      <datasheet>http://www.vishay.com/docs/85557/ll4148.pdf</datasheet>
+      <fields>
+        <field name="Description">75V 500mW 1V@10mA 4ns 150mA LL-34 Switching Diode ROHS</field>
+        <field name="LCSC">C2891733</field>
+        <field name="MFR.Part">LL4148</field>
+      </fields>
+      <libsource lib="Diode" part="LL4148" description="100V 0.15A standard switching diode, MiniMELF"/>
+      <property name="MFR.Part" value="LL4148"/>
+      <property name="Description" value="75V 500mW 1V@10mA 4ns 150mA LL-34 Switching Diode ROHS"/>
+      <property name="LCSC" value="C2891733"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, MiniMELF"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fef6eea9-958f-4c51-a571-1383dd5e88bf</tstamps>
+    </comp>
+    <comp ref="D6">
+      <value>LL4148</value>
+      <footprint>Diode_SMD:D_MiniMELF</footprint>
+      <datasheet>http://www.vishay.com/docs/85557/ll4148.pdf</datasheet>
+      <fields>
+        <field name="Description">75V 500mW 1V@10mA 4ns 150mA LL-34 Switching Diode ROHS</field>
+        <field name="LCSC">C2891733</field>
+        <field name="MFR.Part">LL4148</field>
+      </fields>
+      <libsource lib="Diode" part="LL4148" description="100V 0.15A standard switching diode, MiniMELF"/>
+      <property name="MFR.Part" value="LL4148"/>
+      <property name="Description" value="75V 500mW 1V@10mA 4ns 150mA LL-34 Switching Diode ROHS"/>
+      <property name="LCSC" value="C2891733"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, MiniMELF"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>d59c7fda-dc5d-4467-8dd7-9e19f52ee981</tstamps>
+    </comp>
+    <comp ref="D7">
+      <value>~</value>
+      <footprint>LED_THT:LED_D3.0mm</footprint>
+      <fields>
+        <field name="Description">green Plugin,D=3.2mm Light Emitting Diodes (LED) ROHS</field>
+        <field name="LCSC">C3001646</field>
+        <field name="MFR.Part">TLHG4400</field>
+      </fields>
+      <libsource lib="Z_led" part="Led" description=""/>
+      <property name="MFR.Part" value="TLHG4400"/>
+      <property name="Description" value="green Plugin,D=3.2mm Light Emitting Diodes (LED) ROHS"/>
+      <property name="LCSC" value="C3001646"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>27643222-72a8-4f07-a642-8ba13416b1d3</tstamps>
+    </comp>
+    <comp ref="H1">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.5mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="MFR.Part" value=""/>
+      <property name="Description" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>db601348-c676-430b-a141-5249c52b8f4a</tstamps>
+    </comp>
+    <comp ref="H2">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.5mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="MFR.Part" value=""/>
+      <property name="Description" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>aa93355c-e8ba-4a6e-8344-acab14d1d46d</tstamps>
+    </comp>
+    <comp ref="H3">
+      <value>MountingHole</value>
+      <footprint>MountingHole:MountingHole_3.5mm</footprint>
+      <libsource lib="Mechanical" part="MountingHole" description="Mounting Hole without connection"/>
+      <property name="MFR.Part" value=""/>
+      <property name="Description" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Mounting Hole without connection"/>
+      <property name="ki_keywords" value="mounting hole"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e2108dfa-2eae-4655-a738-9902fdde387b</tstamps>
+    </comp>
+    <comp ref="J1">
+      <value>~</value>
+      <footprint>Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Description">2.54mm Straight 2x5P 5 Push - Pull 2.54mm 2 Plugin,P=2.54mm IDC Connectors ROHS</field>
+        <field name="LCSC">C5665</field>
+        <field name="MFR.Part">C5665</field>
+      </fields>
+      <libsource lib="Z_connectors" part="BH-10" description=""/>
+      <property name="MFR.Part" value="C5665"/>
+      <property name="Description" value="2.54mm Straight 2x5P 5 Push - Pull 2.54mm 2 Plugin,P=2.54mm IDC Connectors ROHS"/>
+      <property name="LCSC" value="C5665"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0736b25f-e626-4379-858e-8202b914752e</tstamps>
+    </comp>
+    <comp ref="JP1">
+      <value>Jumper_3_Open</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Description">Gold 250V 3A Straight Square Pins 2.54mm 3P 260℃ 6mm -40℃~+105℃ 3mm 2.54mm Brass Black Plugin 2.54mm 1x3P Plugin,P=2.54mm Pin Headers ROHS</field>
+        <field name="LCSC">C6332196</field>
+        <field name="MFR.Part">HB-PH3-25413PB2GOP</field>
+      </fields>
+      <libsource lib="Jumper" part="Jumper_3_Open" description="Jumper, 3-pole, both open"/>
+      <property name="MFR.Part" value="HB-PH3-25413PB2GOP"/>
+      <property name="Description" value="Gold 250V 3A Straight Square Pins 2.54mm 3P 260℃ 6mm -40℃~+105℃ 3mm 2.54mm Brass Black Plugin 2.54mm 1x3P Plugin,P=2.54mm Pin Headers ROHS"/>
+      <property name="LCSC" value="C6332196"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Jumper, 3-pole, both open"/>
+      <property name="ki_keywords" value="Jumper SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c582ce57-33e1-4cd2-9906-101aea76cbba</tstamps>
+    </comp>
+    <comp ref="JP2">
+      <value>Jumper_3_Open</value>
+      <footprint>Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical</footprint>
+      <fields>
+        <field name="Description">Gold 250V 3A Straight Square Pins 2.54mm 3P 260℃ 6mm -40℃~+105℃ 3mm 2.54mm Brass Black Plugin 2.54mm 1x3P Plugin,P=2.54mm Pin Headers ROHS</field>
+        <field name="LCSC">C6332196</field>
+        <field name="MFR.Part">HB-PH3-25413PB2GOP</field>
+      </fields>
+      <libsource lib="Jumper" part="Jumper_3_Open" description="Jumper, 3-pole, both open"/>
+      <property name="MFR.Part" value="HB-PH3-25413PB2GOP"/>
+      <property name="Description" value="Gold 250V 3A Straight Square Pins 2.54mm 3P 260℃ 6mm -40℃~+105℃ 3mm 2.54mm Brass Black Plugin 2.54mm 1x3P Plugin,P=2.54mm Pin Headers ROHS"/>
+      <property name="LCSC" value="C6332196"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Jumper, 3-pole, both open"/>
+      <property name="ki_keywords" value="Jumper SPDT"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>453898fd-53e4-43b5-a625-a5c696467523</tstamps>
+    </comp>
+    <comp ref="M1">
+      <value>BluePillStm32</value>
+      <footprint>Package_DIP:DIP-40_W15.24mm_Socket_LongPads</footprint>
+      <libsource lib="Z_modules" part="BluePillStm32" description=""/>
+      <property name="MFR.Part" value=""/>
+      <property name="Description" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>08d824cb-4575-482e-b4f2-9077a29c9b8b</tstamps>
+    </comp>
+    <comp ref="R1">
+      <value>4,7k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">250mW Thick Film Resistors ±100ppm/℃ ±5% 4.7kΩ 1206 Chip Resistor - Surface Mount ROHS</field>
+        <field name="LCSC">C136458</field>
+        <field name="MFR.Part">RC1206JR-074K7L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="RC1206JR-074K7L"/>
+      <property name="Description" value="250mW Thick Film Resistors ±100ppm/℃ ±5% 4.7kΩ 1206 Chip Resistor - Surface Mount ROHS"/>
+      <property name="LCSC" value="C136458"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>acaa2d02-9942-4d6f-9953-0ddffef220d2</tstamps>
+    </comp>
+    <comp ref="R2">
+      <value>470</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">250mW Thick Film Resistors ±100ppm/℃ ±5% 470Ω 1206 Chip Resistor - Surface Mount ROHS</field>
+        <field name="LCSC">C114948</field>
+        <field name="MFR.Part">RC1206JR-07470RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="RC1206JR-07470RL"/>
+      <property name="Description" value="250mW Thick Film Resistors ±100ppm/℃ ±5% 470Ω 1206 Chip Resistor - Surface Mount ROHS"/>
+      <property name="LCSC" value="C114948"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>df45bae7-6974-4e4b-911e-a6b16f82cb21</tstamps>
+    </comp>
+    <comp ref="R3">
+      <value>4,7k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">250mW Thick Film Resistors ±100ppm/℃ ±5% 4.7kΩ 1206 Chip Resistor - Surface Mount ROHS</field>
+        <field name="LCSC">C136458</field>
+        <field name="MFR.Part">RC1206JR-074K7L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="RC1206JR-074K7L"/>
+      <property name="Description" value="250mW Thick Film Resistors ±100ppm/℃ ±5% 4.7kΩ 1206 Chip Resistor - Surface Mount ROHS"/>
+      <property name="LCSC" value="C136458"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7144d18c-b9e2-49e7-8237-324969193d59</tstamps>
+    </comp>
+    <comp ref="R4">
+      <value>4,7k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">250mW Thick Film Resistors ±100ppm/℃ ±5% 4.7kΩ 1206 Chip Resistor - Surface Mount ROHS</field>
+        <field name="LCSC">C136458</field>
+        <field name="MFR.Part">RC1206JR-074K7L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="RC1206JR-074K7L"/>
+      <property name="Description" value="250mW Thick Film Resistors ±100ppm/℃ ±5% 4.7kΩ 1206 Chip Resistor - Surface Mount ROHS"/>
+      <property name="LCSC" value="C136458"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>a6f6baf3-5ea9-4861-9f20-bcb3cbb95e7c</tstamps>
+    </comp>
+    <comp ref="R5">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">250mW Thick Film Resistors ±100ppm/℃ ±5% 330Ω 1206 Chip Resistor - Surface Mount ROH</field>
+        <field name="LCSC">C137152</field>
+        <field name="MFR.Part">RC1206JR-07330RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="RC1206JR-07330RL"/>
+      <property name="Description" value="250mW Thick Film Resistors ±100ppm/℃ ±5% 330Ω 1206 Chip Resistor - Surface Mount ROH"/>
+      <property name="LCSC" value="C137152"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>37aa95b4-a875-45d1-aa78-ab2907ce6729</tstamps>
+    </comp>
+    <comp ref="R6">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">250mW Thick Film Resistors ±100ppm/℃ ±5% 330Ω 1206 Chip Resistor - Surface Mount ROH</field>
+        <field name="LCSC">C137152</field>
+        <field name="MFR.Part">RC1206JR-07330RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="RC1206JR-07330RL"/>
+      <property name="Description" value="250mW Thick Film Resistors ±100ppm/℃ ±5% 330Ω 1206 Chip Resistor - Surface Mount ROH"/>
+      <property name="LCSC" value="C137152"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>c4597360-7500-495a-a5d8-2c0b47edfe92</tstamps>
+    </comp>
+    <comp ref="R7">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">250mW Thick Film Resistors ±100ppm/℃ ±5% 330Ω 1206 Chip Resistor - Surface Mount ROH</field>
+        <field name="LCSC">C137152</field>
+        <field name="MFR.Part">RC1206JR-07330RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="RC1206JR-07330RL"/>
+      <property name="Description" value="250mW Thick Film Resistors ±100ppm/℃ ±5% 330Ω 1206 Chip Resistor - Surface Mount ROH"/>
+      <property name="LCSC" value="C137152"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>034eaa93-82e5-44e0-bfa1-625b599342c3</tstamps>
+    </comp>
+    <comp ref="R8">
+      <value>100</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">250mW Thick Film Resistors ±100ppm/℃ ±5% 100Ω 1206 Chip Resistor - Surface Mount ROHS</field>
+        <field name="LCSC">C113307</field>
+        <field name="MFR.Part">RC1206JR-07100RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="RC1206JR-07100RL"/>
+      <property name="Description" value="250mW Thick Film Resistors ±100ppm/℃ ±5% 100Ω 1206 Chip Resistor - Surface Mount ROHS"/>
+      <property name="LCSC" value="C113307"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>780e0ec8-e11a-42d5-a49e-15ab2f7e8b03</tstamps>
+    </comp>
+    <comp ref="R9">
+      <value>4,7k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">250mW Thick Film Resistors ±100ppm/℃ ±5% 4.7kΩ 1206 Chip Resistor - Surface Mount ROHS</field>
+        <field name="LCSC">C136458</field>
+        <field name="MFR.Part">RC1206JR-074K7L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="RC1206JR-074K7L"/>
+      <property name="Description" value="250mW Thick Film Resistors ±100ppm/℃ ±5% 4.7kΩ 1206 Chip Resistor - Surface Mount ROHS"/>
+      <property name="LCSC" value="C136458"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>78d8c94c-8f8e-4ce0-9696-e9776d115a84</tstamps>
+    </comp>
+    <comp ref="R10">
+      <value>15k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">250mW Thick Film Resistors ±100ppm/℃ ±5% 15kΩ 1206 Chip Resistor - Surface Mount ROHS</field>
+        <field name="LCSC">C137199</field>
+        <field name="MFR.Part">RC1206JR-0715KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="RC1206JR-0715KL"/>
+      <property name="Description" value="250mW Thick Film Resistors ±100ppm/℃ ±5% 15kΩ 1206 Chip Resistor - Surface Mount ROHS"/>
+      <property name="LCSC" value="C137199"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>9561043e-9050-497a-b316-186a58519843</tstamps>
+    </comp>
+    <comp ref="R11">
+      <value>4,7k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">250mW Thick Film Resistors ±100ppm/℃ ±5% 4.7kΩ 1206 Chip Resistor - Surface Mount ROHS</field>
+        <field name="LCSC">C136458</field>
+        <field name="MFR.Part">RC1206JR-074K7L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="RC1206JR-074K7L"/>
+      <property name="Description" value="250mW Thick Film Resistors ±100ppm/℃ ±5% 4.7kΩ 1206 Chip Resistor - Surface Mount ROHS"/>
+      <property name="LCSC" value="C136458"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fc8866b4-b5fb-4920-be20-947a264ab91b</tstamps>
+    </comp>
+    <comp ref="R12">
+      <value>680</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">250mW Thick Film Resistors ±100ppm/℃ ±5% 680Ω 1206 Chip Resistor - Surface Mount ROHS</field>
+        <field name="LCSC">C137124</field>
+        <field name="MFR.Part">RC1206JR-07680RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="RC1206JR-07680RL"/>
+      <property name="Description" value="250mW Thick Film Resistors ±100ppm/℃ ±5% 680Ω 1206 Chip Resistor - Surface Mount ROHS"/>
+      <property name="LCSC" value="C137124"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>fa6268d5-fb8d-44ef-9b7e-5b158f589d1c</tstamps>
+    </comp>
+    <comp ref="R13">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">250mW Thick Film Resistors ±100ppm/℃ ±5% 330Ω 1206 Chip Resistor - Surface Mount ROH</field>
+        <field name="LCSC">C137152</field>
+        <field name="MFR.Part">RC1206JR-07330RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="RC1206JR-07330RL"/>
+      <property name="Description" value="250mW Thick Film Resistors ±100ppm/℃ ±5% 330Ω 1206 Chip Resistor - Surface Mount ROH"/>
+      <property name="LCSC" value="C137152"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>ae39798e-e268-4d88-9686-0d15ee5753c2</tstamps>
+    </comp>
+    <comp ref="R14">
+      <value>1,5k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">250mW Thick Film Resistors ±100ppm/℃ ±5% 1.5kΩ 1206 Chip Resistor - Surface Mount ROHS</field>
+        <field name="LCSC">C137189</field>
+        <field name="MFR.Part">RC1206JR-071K5L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="RC1206JR-071K5L"/>
+      <property name="Description" value="250mW Thick Film Resistors ±100ppm/℃ ±5% 1.5kΩ 1206 Chip Resistor - Surface Mount ROHS"/>
+      <property name="LCSC" value="C137189"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>835c5f26-963a-469b-9479-433379842f12</tstamps>
+    </comp>
+    <comp ref="R15">
+      <value>4,7k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">250mW Thick Film Resistors ±100ppm/℃ ±5% 4.7kΩ 1206 Chip Resistor - Surface Mount ROHS</field>
+        <field name="LCSC">C136458</field>
+        <field name="MFR.Part">RC1206JR-074K7L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="RC1206JR-074K7L"/>
+      <property name="Description" value="250mW Thick Film Resistors ±100ppm/℃ ±5% 4.7kΩ 1206 Chip Resistor - Surface Mount ROHS"/>
+      <property name="LCSC" value="C136458"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>282e0c39-065a-4484-bfbd-038057985b6e</tstamps>
+    </comp>
+    <comp ref="R16">
+      <value>360</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">250mW Thick Film Resistors ±100ppm/℃ ±5% 360Ω 1206 Chip Resistor - Surface Mount ROHS</field>
+        <field name="LCSC">C246069</field>
+        <field name="MFR.Part">RC1206JR-07360RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="RC1206JR-07360RL"/>
+      <property name="Description" value="250mW Thick Film Resistors ±100ppm/℃ ±5% 360Ω 1206 Chip Resistor - Surface Mount ROHS"/>
+      <property name="LCSC" value="C246069"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>7450da67-9f31-47c8-9838-07524cc13169</tstamps>
+    </comp>
+    <comp ref="R17">
+      <value>1k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">250mW Thick Film Resistors ±100ppm/℃ ±5% 1kΩ 1206 Chip Resistor - Surface Mount ROHS</field>
+        <field name="LCSC">C112223</field>
+        <field name="MFR.Part">RC1206JR-071KL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="RC1206JR-071KL"/>
+      <property name="Description" value="250mW Thick Film Resistors ±100ppm/℃ ±5% 1kΩ 1206 Chip Resistor - Surface Mount ROHS"/>
+      <property name="LCSC" value="C112223"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>936084c2-1c6d-4c6d-bee5-3384e188fcbe</tstamps>
+    </comp>
+    <comp ref="R18">
+      <value>1,5k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">250mW Thick Film Resistors ±100ppm/℃ ±5% 1.5kΩ 1206 Chip Resistor - Surface Mount ROHS</field>
+        <field name="LCSC">C137189</field>
+        <field name="MFR.Part">RC1206JR-071K5L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="RC1206JR-071K5L"/>
+      <property name="Description" value="250mW Thick Film Resistors ±100ppm/℃ ±5% 1.5kΩ 1206 Chip Resistor - Surface Mount ROHS"/>
+      <property name="LCSC" value="C137189"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>8b26b5df-004a-4f54-8afe-fd390e713a7a</tstamps>
+    </comp>
+    <comp ref="RV1">
+      <value>5k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <fields>
+        <field name="Description">±10% 5kΩ Plugin Variable Resistors/Potentiometers ROHS</field>
+        <field name="LCSC">C118907</field>
+        <field name="MFR.Part">3296W-1-502</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="MFR.Part" value="3296W-1-502"/>
+      <property name="Description" value="±10% 5kΩ Plugin Variable Resistors/Potentiometers ROHS"/>
+      <property name="LCSC" value="C118907"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>38e70c58-32ea-4938-8b51-e782b1b2424d</tstamps>
+    </comp>
+    <comp ref="RV2">
+      <value>5k</value>
+      <footprint>Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical</footprint>
+      <fields>
+        <field name="Description">±10% 5kΩ Plugin Variable Resistors/Potentiometers ROHS</field>
+        <field name="LCSC">C118907</field>
+        <field name="MFR.Part">3296W-1-502</field>
+      </fields>
+      <libsource lib="Device" part="R_Potentiometer" description="Potentiometer"/>
+      <property name="MFR.Part" value="3296W-1-502"/>
+      <property name="Description" value="±10% 5kΩ Plugin Variable Resistors/Potentiometers ROHS"/>
+      <property name="LCSC" value="C118907"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Potentiometer"/>
+      <property name="ki_keywords" value="resistor variable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>b17110fc-0edd-44c7-bce4-3a0fc03ed933</tstamps>
+    </comp>
+    <comp ref="U1">
+      <value>PC817</value>
+      <footprint>Package_DIP:DIP-4_W7.62mm</footprint>
+      <datasheet>http://www.soselectronic.cz/a_info/resource/d/pc817.pdf</datasheet>
+      <fields>
+        <field name="Description">80V 5000V 50mA 0.1V@1mA,20mA 1 6V 1.2V DC DIP-4 Optocouplers - Phototransistor Output ROHS</field>
+        <field name="LCSC">C2833074</field>
+        <field name="MFR.Part">PC817X2YSZW</field>
+      </fields>
+      <libsource lib="Isolator" part="PC817" description="DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4"/>
+      <property name="MFR.Part" value="PC817X2YSZW"/>
+      <property name="Description" value="80V 5000V 50mA 0.1V@1mA,20mA 1 6V 1.2V DC DIP-4 Optocouplers - Phototransistor Output ROHS"/>
+      <property name="LCSC" value="C2833074"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4"/>
+      <property name="ki_keywords" value="NPN DC Optocoupler"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>62776cf4-9a5c-4933-a3db-a3095d8112e5</tstamps>
+    </comp>
+    <comp ref="U2">
+      <value>L7805</value>
+      <footprint>Package_TO_SOT_THT:TO-126-3_Vertical</footprint>
+      <datasheet>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</datasheet>
+      <fields>
+        <field name="Description">68dB@(120Hz) 1.5A null 5V positive 35V TO-220 Linear Voltage Regulators (LDO) ROHS</field>
+        <field name="LCSC">C2935188</field>
+        <field name="MFR.Part">L7805ABP</field>
+      </fields>
+      <libsource lib="Regulator_Linear" part="L7805" description="Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"/>
+      <property name="MFR.Part" value="L7805ABP"/>
+      <property name="Description" value="68dB@(120Hz) 1.5A null 5V positive 35V TO-220 Linear Voltage Regulators (LDO) ROHS"/>
+      <property name="LCSC" value="C2935188"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252"/>
+      <property name="ki_keywords" value="Voltage Regulator 1.5A Positive"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>e7ae3d23-3e97-4558-a50c-6a26674a1626</tstamps>
+    </comp>
+    <comp ref="U3">
+      <value>TC1047AxNB</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <datasheet>http://ww1.microchip.com/downloads/en/DeviceDoc/21498D.pdf</datasheet>
+      <fields>
+        <field name="Description">SOT-23(TO-236) Temperature Sensors ROHS</field>
+        <field name="LCSC">C50052</field>
+        <field name="MFR.Part">TC1047AVNBTR</field>
+      </fields>
+      <libsource lib="Sensor_Temperature" part="TC1047AxNB" description="Precision Temperature-to-Voltage Converter, 10mV/ºC, -40ºC to +125ºC, ±2.0ºC (max), 2.5V to 5.5V, SOT-23"/>
+      <property name="MFR.Part" value="TC1047AVNBTR"/>
+      <property name="Description" value="SOT-23(TO-236) Temperature Sensors ROHS"/>
+      <property name="LCSC" value="C50052"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Precision Temperature-to-Voltage Converter, 10mV/ºC, -40ºC to +125ºC, ±2.0ºC (max), 2.5V to 5.5V, SOT-23"/>
+      <property name="ki_keywords" value="temperature sensor analog"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0299f606-9953-4eac-90bc-9e95728c9a5d</tstamps>
+    </comp>
+    <comp ref="U4">
+      <value>78L05S</value>
+      <footprint>Package_TO_SOT_SMD:SOT-23</footprint>
+      <fields>
+        <field name="Description">100mA Fixed 5V Positive 30V SOT-23 Linear Voltage Regulators (LDO) ROHS</field>
+        <field name="LCSC">C2858514</field>
+        <field name="MFR.Part">78L05S</field>
+      </fields>
+      <libsource lib="Z_modules" part="L7805_SOT23" description=""/>
+      <property name="MFR.Part" value="78L05S"/>
+      <property name="Description" value="100mA Fixed 5V Positive 30V SOT-23 Linear Voltage Regulators (LDO) ROHS"/>
+      <property name="LCSC" value="C2858514"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>5ebca299-a700-4e04-94ae-a656cc90f580</tstamps>
+    </comp>
+    <comp ref="U5">
+      <value>LM311</value>
+      <footprint>Package_SO:SO-8_3.9x4.9mm_P1.27mm</footprint>
+      <datasheet>https://www.st.com/resource/en/datasheet/lm311.pdf</datasheet>
+      <fields>
+        <field name="Description">7.5mV 0.25uA SO-8 Comparators ROHS</field>
+        <field name="LCSC">C2868397</field>
+        <field name="MFR.Part">LM311PSR</field>
+      </fields>
+      <libsource lib="Comparator" part="LM311" description="Voltage Comparator, DIP-8/SOIC-8"/>
+      <property name="MFR.Part" value="LM311PSR"/>
+      <property name="Description" value="7.5mV 0.25uA SO-8 Comparators ROHS"/>
+      <property name="LCSC" value="C2868397"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Voltage Comparator, DIP-8/SOIC-8"/>
+      <property name="ki_keywords" value="cmp open collector"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>20991b1d-da80-448c-8e19-9a4b2a7e5e51</tstamps>
+    </comp>
+    <comp ref="U6">
+      <value>6N137</value>
+      <footprint>Package_DIP:DIP-8_W7.62mm</footprint>
+      <datasheet>https://docs.broadcom.com/docs/AV02-0940EN</datasheet>
+      <fields>
+        <field name="Description">10Mbit/s 75ns 7V 5kV/us DC DIP-8 Optocouplers - Logic Output ROHS</field>
+        <field name="LCSC">C142297</field>
+        <field name="MFR.Part">6N137</field>
+      </fields>
+      <libsource lib="Isolator" part="6N137" description="Single High Speed LSTTL/TTL Compatible Optocoupler with enable, dV/dt 1000/us, VCM 10, max 7V VCC, DIP-8"/>
+      <property name="MFR.Part" value="6N137"/>
+      <property name="Description" value="10Mbit/s 75ns 7V 5kV/us DC DIP-8 Optocouplers - Logic Output ROHS"/>
+      <property name="LCSC" value="C142297"/>
+      <property name="Sheetname" value=""/>
+      <property name="Sheetfile" value="Module_1.kicad_sch"/>
+      <property name="ki_description" value="Single High Speed LSTTL/TTL Compatible Optocoupler with enable, dV/dt 1000/us, VCM 10, max 7V VCC, DIP-8"/>
+      <property name="ki_keywords" value="High speed optically coupled gates enable"/>
+      <sheetpath names="/" tstamps="/"/>
+      <tstamps>0949a2dd-8071-4e65-abc2-08bcf9c2aa6f</tstamps>
+    </comp>
+    <comp ref="C19">
+      <value>0,47uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">50V 470nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</field>
+        <field name="LCSC">C277483</field>
+        <field name="MFR.Part">CC1206KKX7R9BB474</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MFR.Part" value="CC1206KKX7R9BB474"/>
+      <property name="Description" value="50V 470nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="LCSC" value="C277483"/>
+      <property name="Sheetname" value="DriverFet"/>
+      <property name="Sheetfile" value="DriverFet.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/DriverFet/" tstamps="/cd077219-492f-43c1-90b6-1d3e788e0d80/"/>
+      <tstamps>ad654828-399e-4f26-880c-3ea013af5305</tstamps>
+    </comp>
+    <comp ref="C20">
+      <value>0,47uF</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">50V 470nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</field>
+        <field name="LCSC">C277483</field>
+        <field name="MFR.Part">CC1206KKX7R9BB474</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MFR.Part" value="CC1206KKX7R9BB474"/>
+      <property name="Description" value="50V 470nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="LCSC" value="C277483"/>
+      <property name="Sheetname" value="DriverFet"/>
+      <property name="Sheetfile" value="DriverFet.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/DriverFet/" tstamps="/cd077219-492f-43c1-90b6-1d3e788e0d80/"/>
+      <tstamps>444544af-a543-4239-b08a-6616fad3ec39</tstamps>
+    </comp>
+    <comp ref="C21">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">50V 1nF NP0 ±2% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</field>
+        <field name="LCSC">C527247</field>
+        <field name="MFR.Part">CC1206GRNPO9BN102</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MFR.Part" value="CC1206GRNPO9BN102"/>
+      <property name="Description" value="50V 1nF NP0 ±2% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="LCSC" value="C527247"/>
+      <property name="Sheetname" value="DriverFet"/>
+      <property name="Sheetfile" value="DriverFet.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/DriverFet/" tstamps="/cd077219-492f-43c1-90b6-1d3e788e0d80/"/>
+      <tstamps>65e4b9d2-089f-4311-9f29-831c8e524831</tstamps>
+    </comp>
+    <comp ref="C22">
+      <value>1n</value>
+      <footprint>Capacitor_SMD:C_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">50V 1nF NP0 ±2% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS</field>
+        <field name="LCSC">C527247</field>
+        <field name="MFR.Part">CC1206GRNPO9BN102</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MFR.Part" value="CC1206GRNPO9BN102"/>
+      <property name="Description" value="50V 1nF NP0 ±2% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS"/>
+      <property name="LCSC" value="C527247"/>
+      <property name="Sheetname" value="DriverFet"/>
+      <property name="Sheetfile" value="DriverFet.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/DriverFet/" tstamps="/cd077219-492f-43c1-90b6-1d3e788e0d80/"/>
+      <tstamps>17af733a-c76f-4090-b256-5f7f0dfa5954</tstamps>
+    </comp>
+    <comp ref="D8">
+      <value>LL4148</value>
+      <footprint>Diode_SMD:D_MiniMELF</footprint>
+      <datasheet>http://www.vishay.com/docs/85557/ll4148.pdf</datasheet>
+      <fields>
+        <field name="Description">75V 500mW 1V@10mA 4ns 150mA LL-34 Switching Diode ROHS</field>
+        <field name="LCSC">C2891733</field>
+        <field name="MFR.Part">LL4148</field>
+      </fields>
+      <libsource lib="Diode" part="LL4148" description="100V 0.15A standard switching diode, MiniMELF"/>
+      <property name="MFR.Part" value="LL4148"/>
+      <property name="Description" value="75V 500mW 1V@10mA 4ns 150mA LL-34 Switching Diode ROHS"/>
+      <property name="LCSC" value="C2891733"/>
+      <property name="Sheetname" value="DriverFet"/>
+      <property name="Sheetfile" value="DriverFet.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, MiniMELF"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/DriverFet/" tstamps="/cd077219-492f-43c1-90b6-1d3e788e0d80/"/>
+      <tstamps>332ba844-b54e-45d1-ab94-81478af41a91</tstamps>
+    </comp>
+    <comp ref="D9">
+      <value>LL4148</value>
+      <footprint>Diode_SMD:D_MiniMELF</footprint>
+      <datasheet>http://www.vishay.com/docs/85557/ll4148.pdf</datasheet>
+      <fields>
+        <field name="Description">75V 500mW 1V@10mA 4ns 150mA LL-34 Switching Diode ROHS</field>
+        <field name="LCSC">C2891733</field>
+        <field name="MFR.Part">LL4148</field>
+      </fields>
+      <libsource lib="Diode" part="LL4148" description="100V 0.15A standard switching diode, MiniMELF"/>
+      <property name="MFR.Part" value="LL4148"/>
+      <property name="Description" value="75V 500mW 1V@10mA 4ns 150mA LL-34 Switching Diode ROHS"/>
+      <property name="LCSC" value="C2891733"/>
+      <property name="Sheetname" value="DriverFet"/>
+      <property name="Sheetfile" value="DriverFet.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, MiniMELF"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/DriverFet/" tstamps="/cd077219-492f-43c1-90b6-1d3e788e0d80/"/>
+      <tstamps>1d28da09-43c9-4a2a-a13a-accb539dba61</tstamps>
+    </comp>
+    <comp ref="D10">
+      <value>LL4148</value>
+      <footprint>Diode_SMD:D_MiniMELF</footprint>
+      <datasheet>http://www.vishay.com/docs/85557/ll4148.pdf</datasheet>
+      <fields>
+        <field name="Description">75V 500mW 1V@10mA 4ns 150mA LL-34 Switching Diode ROHS</field>
+        <field name="LCSC">C2891733</field>
+        <field name="MFR.Part">LL4148</field>
+      </fields>
+      <libsource lib="Diode" part="LL4148" description="100V 0.15A standard switching diode, MiniMELF"/>
+      <property name="MFR.Part" value="LL4148"/>
+      <property name="Description" value="75V 500mW 1V@10mA 4ns 150mA LL-34 Switching Diode ROHS"/>
+      <property name="LCSC" value="C2891733"/>
+      <property name="Sheetname" value="DriverFet"/>
+      <property name="Sheetfile" value="DriverFet.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, MiniMELF"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/DriverFet/" tstamps="/cd077219-492f-43c1-90b6-1d3e788e0d80/"/>
+      <tstamps>a9f7d62b-aef5-49ac-9209-dd7ac02b43b3</tstamps>
+    </comp>
+    <comp ref="D11">
+      <value>LL4148</value>
+      <footprint>Diode_SMD:D_MiniMELF</footprint>
+      <datasheet>http://www.vishay.com/docs/85557/ll4148.pdf</datasheet>
+      <fields>
+        <field name="Description">75V 500mW 1V@10mA 4ns 150mA LL-34 Switching Diode ROHS</field>
+        <field name="LCSC">C2891733</field>
+        <field name="MFR.Part">LL4148</field>
+      </fields>
+      <libsource lib="Diode" part="LL4148" description="100V 0.15A standard switching diode, MiniMELF"/>
+      <property name="MFR.Part" value="LL4148"/>
+      <property name="Description" value="75V 500mW 1V@10mA 4ns 150mA LL-34 Switching Diode ROHS"/>
+      <property name="LCSC" value="C2891733"/>
+      <property name="Sheetname" value="DriverFet"/>
+      <property name="Sheetfile" value="DriverFet.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, MiniMELF"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/DriverFet/" tstamps="/cd077219-492f-43c1-90b6-1d3e788e0d80/"/>
+      <tstamps>35d78e00-55b0-42e0-a7e7-5fe414a3537b</tstamps>
+    </comp>
+    <comp ref="Q1">
+      <value>STD20NF06T4</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>http://www.jaolen.com/images/pdf/QM6006D.pdf</datasheet>
+      <fields>
+        <field name="Description">30A 35mΩ@15A,10V 55W TO-252 MOSFETs ROHS</field>
+        <field name="LCSC">C668203</field>
+        <field name="MFR.Part">STD20NF06L</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="QM6006D" description="35A Id, 60V Vds, N-Channel Power MOSFET, 18mOhm Ron, 19.3nC Qg (typ), TO252"/>
+      <property name="MFR.Part" value="STD20NF06L"/>
+      <property name="Description" value="30A 35mΩ@15A,10V 55W TO-252 MOSFETs ROHS"/>
+      <property name="LCSC" value="C668203"/>
+      <property name="Sheetname" value="DriverFet"/>
+      <property name="Sheetfile" value="DriverFet.kicad_sch"/>
+      <property name="ki_description" value="35A Id, 60V Vds, N-Channel Power MOSFET, 18mOhm Ron, 19.3nC Qg (typ), TO252"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <sheetpath names="/DriverFet/" tstamps="/cd077219-492f-43c1-90b6-1d3e788e0d80/"/>
+      <tstamps>c183506f-56dc-41ab-8463-3074b55263aa</tstamps>
+    </comp>
+    <comp ref="Q2">
+      <value>STD20NF06T4</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>http://www.jaolen.com/images/pdf/QM6006D.pdf</datasheet>
+      <fields>
+        <field name="Description">30A 35mΩ@15A,10V 55W TO-252 MOSFETs ROHS</field>
+        <field name="LCSC">C668203</field>
+        <field name="MFR.Part">STD20NF06L</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="QM6006D" description="35A Id, 60V Vds, N-Channel Power MOSFET, 18mOhm Ron, 19.3nC Qg (typ), TO252"/>
+      <property name="MFR.Part" value="STD20NF06L"/>
+      <property name="Description" value="30A 35mΩ@15A,10V 55W TO-252 MOSFETs ROHS"/>
+      <property name="LCSC" value="C668203"/>
+      <property name="Sheetname" value="DriverFet"/>
+      <property name="Sheetfile" value="DriverFet.kicad_sch"/>
+      <property name="ki_description" value="35A Id, 60V Vds, N-Channel Power MOSFET, 18mOhm Ron, 19.3nC Qg (typ), TO252"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <sheetpath names="/DriverFet/" tstamps="/cd077219-492f-43c1-90b6-1d3e788e0d80/"/>
+      <tstamps>650f0bb8-547c-4f7b-8b26-63f9c39a3aa2</tstamps>
+    </comp>
+    <comp ref="Q3">
+      <value>STD20NF06T4</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>http://www.jaolen.com/images/pdf/QM6006D.pdf</datasheet>
+      <fields>
+        <field name="Description">30A 35mΩ@15A,10V 55W TO-252 MOSFETs ROHS</field>
+        <field name="LCSC">C668203</field>
+        <field name="MFR.Part">STD20NF06L</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="QM6006D" description="35A Id, 60V Vds, N-Channel Power MOSFET, 18mOhm Ron, 19.3nC Qg (typ), TO252"/>
+      <property name="MFR.Part" value="STD20NF06L"/>
+      <property name="Description" value="30A 35mΩ@15A,10V 55W TO-252 MOSFETs ROHS"/>
+      <property name="LCSC" value="C668203"/>
+      <property name="Sheetname" value="DriverFet"/>
+      <property name="Sheetfile" value="DriverFet.kicad_sch"/>
+      <property name="ki_description" value="35A Id, 60V Vds, N-Channel Power MOSFET, 18mOhm Ron, 19.3nC Qg (typ), TO252"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <sheetpath names="/DriverFet/" tstamps="/cd077219-492f-43c1-90b6-1d3e788e0d80/"/>
+      <tstamps>b34e3f5d-5f37-4135-a85b-51dc62a63a8b</tstamps>
+    </comp>
+    <comp ref="Q4">
+      <value>STD20NF06T4</value>
+      <footprint>Package_TO_SOT_SMD:TO-252-2</footprint>
+      <datasheet>http://www.jaolen.com/images/pdf/QM6006D.pdf</datasheet>
+      <fields>
+        <field name="Description">30A 35mΩ@15A,10V 55W TO-252 MOSFETs ROHS</field>
+        <field name="LCSC">C668203</field>
+        <field name="MFR.Part">STD20NF06L</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="QM6006D" description="35A Id, 60V Vds, N-Channel Power MOSFET, 18mOhm Ron, 19.3nC Qg (typ), TO252"/>
+      <property name="MFR.Part" value="STD20NF06L"/>
+      <property name="Description" value="30A 35mΩ@15A,10V 55W TO-252 MOSFETs ROHS"/>
+      <property name="LCSC" value="C668203"/>
+      <property name="Sheetname" value="DriverFet"/>
+      <property name="Sheetfile" value="DriverFet.kicad_sch"/>
+      <property name="ki_description" value="35A Id, 60V Vds, N-Channel Power MOSFET, 18mOhm Ron, 19.3nC Qg (typ), TO252"/>
+      <property name="ki_keywords" value="N-Channel MOSFET"/>
+      <sheetpath names="/DriverFet/" tstamps="/cd077219-492f-43c1-90b6-1d3e788e0d80/"/>
+      <tstamps>b09f7b03-02d9-44bf-b741-4c2528a0b8b8</tstamps>
+    </comp>
+    <comp ref="R19">
+      <value>3,3k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">250mW Thick Film Resistors ±100ppm/℃ ±5% 3.3kΩ 1206 Chip Resistor - Surface Mount ROHS</field>
+        <field name="LCSC">C125845</field>
+        <field name="MFR.Part">RC1206JR-073K3L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="RC1206JR-073K3L"/>
+      <property name="Description" value="250mW Thick Film Resistors ±100ppm/℃ ±5% 3.3kΩ 1206 Chip Resistor - Surface Mount ROHS"/>
+      <property name="LCSC" value="C125845"/>
+      <property name="Sheetname" value="DriverFet"/>
+      <property name="Sheetfile" value="DriverFet.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/DriverFet/" tstamps="/cd077219-492f-43c1-90b6-1d3e788e0d80/"/>
+      <tstamps>efc47447-66bd-4e32-839a-5f7462bb8279</tstamps>
+    </comp>
+    <comp ref="R20">
+      <value>3,3k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">250mW Thick Film Resistors ±100ppm/℃ ±5% 3.3kΩ 1206 Chip Resistor - Surface Mount ROHS</field>
+        <field name="LCSC">C125845</field>
+        <field name="MFR.Part">RC1206JR-073K3L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="RC1206JR-073K3L"/>
+      <property name="Description" value="250mW Thick Film Resistors ±100ppm/℃ ±5% 3.3kΩ 1206 Chip Resistor - Surface Mount ROHS"/>
+      <property name="LCSC" value="C125845"/>
+      <property name="Sheetname" value="DriverFet"/>
+      <property name="Sheetfile" value="DriverFet.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/DriverFet/" tstamps="/cd077219-492f-43c1-90b6-1d3e788e0d80/"/>
+      <tstamps>b3aea80f-f1e5-4125-8a7d-16ce7e0606a7</tstamps>
+    </comp>
+    <comp ref="R21">
+      <value>3,3k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">250mW Thick Film Resistors ±100ppm/℃ ±5% 3.3kΩ 1206 Chip Resistor - Surface Mount ROHS</field>
+        <field name="LCSC">C125845</field>
+        <field name="MFR.Part">RC1206JR-073K3L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="RC1206JR-073K3L"/>
+      <property name="Description" value="250mW Thick Film Resistors ±100ppm/℃ ±5% 3.3kΩ 1206 Chip Resistor - Surface Mount ROHS"/>
+      <property name="LCSC" value="C125845"/>
+      <property name="Sheetname" value="DriverFet"/>
+      <property name="Sheetfile" value="DriverFet.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/DriverFet/" tstamps="/cd077219-492f-43c1-90b6-1d3e788e0d80/"/>
+      <tstamps>d16a296b-e282-4d95-9275-4429a0e34c4a</tstamps>
+    </comp>
+    <comp ref="R22">
+      <value>3,3k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">250mW Thick Film Resistors ±100ppm/℃ ±5% 3.3kΩ 1206 Chip Resistor - Surface Mount ROHS</field>
+        <field name="LCSC">C125845</field>
+        <field name="MFR.Part">RC1206JR-073K3L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="RC1206JR-073K3L"/>
+      <property name="Description" value="250mW Thick Film Resistors ±100ppm/℃ ±5% 3.3kΩ 1206 Chip Resistor - Surface Mount ROHS"/>
+      <property name="LCSC" value="C125845"/>
+      <property name="Sheetname" value="DriverFet"/>
+      <property name="Sheetfile" value="DriverFet.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/DriverFet/" tstamps="/cd077219-492f-43c1-90b6-1d3e788e0d80/"/>
+      <tstamps>0b13f880-9512-45c9-a135-bf69b787df60</tstamps>
+    </comp>
+    <comp ref="R23">
+      <value>360</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">250mW Thick Film Resistors ±100ppm/℃ ±5% 360Ω 1206 Chip Resistor - Surface Mount ROHS</field>
+        <field name="LCSC">C246069</field>
+        <field name="MFR.Part">RC1206JR-07360RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="RC1206JR-07360RL"/>
+      <property name="Description" value="250mW Thick Film Resistors ±100ppm/℃ ±5% 360Ω 1206 Chip Resistor - Surface Mount ROHS"/>
+      <property name="LCSC" value="C246069"/>
+      <property name="Sheetname" value="DriverFet"/>
+      <property name="Sheetfile" value="DriverFet.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/DriverFet/" tstamps="/cd077219-492f-43c1-90b6-1d3e788e0d80/"/>
+      <tstamps>12863cb0-54d9-482f-924d-815110030e80</tstamps>
+    </comp>
+    <comp ref="R24">
+      <value>360</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">250mW Thick Film Resistors ±100ppm/℃ ±5% 360Ω 1206 Chip Resistor - Surface Mount ROHS</field>
+        <field name="LCSC">C246069</field>
+        <field name="MFR.Part">RC1206JR-07360RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="RC1206JR-07360RL"/>
+      <property name="Description" value="250mW Thick Film Resistors ±100ppm/℃ ±5% 360Ω 1206 Chip Resistor - Surface Mount ROHS"/>
+      <property name="LCSC" value="C246069"/>
+      <property name="Sheetname" value="DriverFet"/>
+      <property name="Sheetfile" value="DriverFet.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/DriverFet/" tstamps="/cd077219-492f-43c1-90b6-1d3e788e0d80/"/>
+      <tstamps>616e344a-560d-46dd-acf7-3dbb1c95b782</tstamps>
+    </comp>
+    <comp ref="R25">
+      <value>360</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">250mW Thick Film Resistors ±100ppm/℃ ±5% 360Ω 1206 Chip Resistor - Surface Mount ROHS</field>
+        <field name="LCSC">C246069</field>
+        <field name="MFR.Part">RC1206JR-07360RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="RC1206JR-07360RL"/>
+      <property name="Description" value="250mW Thick Film Resistors ±100ppm/℃ ±5% 360Ω 1206 Chip Resistor - Surface Mount ROHS"/>
+      <property name="LCSC" value="C246069"/>
+      <property name="Sheetname" value="DriverFet"/>
+      <property name="Sheetfile" value="DriverFet.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/DriverFet/" tstamps="/cd077219-492f-43c1-90b6-1d3e788e0d80/"/>
+      <tstamps>350221d4-88cd-46a1-b05d-d377594ee6d0</tstamps>
+    </comp>
+    <comp ref="R26">
+      <value>360</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">250mW Thick Film Resistors ±100ppm/℃ ±5% 360Ω 1206 Chip Resistor - Surface Mount ROHS</field>
+        <field name="LCSC">C246069</field>
+        <field name="MFR.Part">RC1206JR-07360RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="RC1206JR-07360RL"/>
+      <property name="Description" value="250mW Thick Film Resistors ±100ppm/℃ ±5% 360Ω 1206 Chip Resistor - Surface Mount ROHS"/>
+      <property name="LCSC" value="C246069"/>
+      <property name="Sheetname" value="DriverFet"/>
+      <property name="Sheetfile" value="DriverFet.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/DriverFet/" tstamps="/cd077219-492f-43c1-90b6-1d3e788e0d80/"/>
+      <tstamps>ddc9f5e9-618e-45d3-b7d3-0d92d552671b</tstamps>
+    </comp>
+    <comp ref="R27">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">250mW Thick Film Resistors ±100ppm/℃ ±5% 330Ω 1206 Chip Resistor - Surface Mount ROH</field>
+        <field name="LCSC">C137152</field>
+        <field name="MFR.Part">RC1206JR-07330RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="RC1206JR-07330RL"/>
+      <property name="Description" value="250mW Thick Film Resistors ±100ppm/℃ ±5% 330Ω 1206 Chip Resistor - Surface Mount ROH"/>
+      <property name="LCSC" value="C137152"/>
+      <property name="Sheetname" value="DriverFet"/>
+      <property name="Sheetfile" value="DriverFet.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/DriverFet/" tstamps="/cd077219-492f-43c1-90b6-1d3e788e0d80/"/>
+      <tstamps>81332752-3569-4ba2-90d9-bdc9434cb662</tstamps>
+    </comp>
+    <comp ref="R28">
+      <value>330</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">250mW Thick Film Resistors ±100ppm/℃ ±5% 330Ω 1206 Chip Resistor - Surface Mount ROH</field>
+        <field name="LCSC">C137152</field>
+        <field name="MFR.Part">RC1206JR-07330RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="RC1206JR-07330RL"/>
+      <property name="Description" value="250mW Thick Film Resistors ±100ppm/℃ ±5% 330Ω 1206 Chip Resistor - Surface Mount ROH"/>
+      <property name="LCSC" value="C137152"/>
+      <property name="Sheetname" value="DriverFet"/>
+      <property name="Sheetfile" value="DriverFet.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/DriverFet/" tstamps="/cd077219-492f-43c1-90b6-1d3e788e0d80/"/>
+      <tstamps>21f4d17b-1652-476b-a9f4-731d42278f8b</tstamps>
+    </comp>
+    <comp ref="C23">
+      <value>2n2 600v</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</footprint>
+      <fields>
+        <field name="Description">±5% 630V 2.2nF PET Plugin,P=5mm Film Capacitors ROHS</field>
+        <field name="LCSC">C424416</field>
+        <field name="MFR.Part">CL112J222J0501</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MFR.Part" value="CL112J222J0501"/>
+      <property name="Description" value="±5% 630V 2.2nF PET Plugin,P=5mm Film Capacitors ROHS"/>
+      <property name="LCSC" value="C424416"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>48755178-c09b-4c0b-b26f-0460d4f28375</tstamps>
+    </comp>
+    <comp ref="C24">
+      <value>2n2 600v</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</footprint>
+      <fields>
+        <field name="Description">±5% 630V 2.2nF PET Plugin,P=5mm Film Capacitors ROHS</field>
+        <field name="LCSC">C424416</field>
+        <field name="MFR.Part">CL112J222J0501</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MFR.Part" value="CL112J222J0501"/>
+      <property name="Description" value="±5% 630V 2.2nF PET Plugin,P=5mm Film Capacitors ROHS"/>
+      <property name="LCSC" value="C424416"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>b28b1da2-1f63-4968-a6db-1246a7e05834</tstamps>
+    </comp>
+    <comp ref="C25">
+      <value>2n2 600v</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</footprint>
+      <fields>
+        <field name="Description">±5% 630V 2.2nF PET Plugin,P=5mm Film Capacitors ROHS</field>
+        <field name="LCSC">C424416</field>
+        <field name="MFR.Part">CL112J222J0501</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MFR.Part" value="CL112J222J0501"/>
+      <property name="Description" value="±5% 630V 2.2nF PET Plugin,P=5mm Film Capacitors ROHS"/>
+      <property name="LCSC" value="C424416"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>69319df5-4c01-436f-9cf5-244a26865dbd</tstamps>
+    </comp>
+    <comp ref="C26">
+      <value>2n2 600v</value>
+      <footprint>Capacitor_THT:C_Rect_L7.0mm_W2.0mm_P5.00mm</footprint>
+      <fields>
+        <field name="Description">±5% 630V 2.2nF PET Plugin,P=5mm Film Capacitors ROHS</field>
+        <field name="LCSC">C424416</field>
+        <field name="MFR.Part">CL112J222J0501</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MFR.Part" value="CL112J222J0501"/>
+      <property name="Description" value="±5% 630V 2.2nF PET Plugin,P=5mm Film Capacitors ROHS"/>
+      <property name="LCSC" value="C424416"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>4c731ca2-4188-4826-9c16-e4a076c821f6</tstamps>
+    </comp>
+    <comp ref="C27">
+      <value>2u 600V</value>
+      <footprint>Capacitor_THT:C_Rect_L31.5mm_W15.0mm_P27.50mm_MKS4</footprint>
+      <fields>
+        <field name="Description">2uF ±10% 600V Plugin,P=27.5mm Polypropylene Film Capacitors (CBB) ROHS</field>
+        <field name="LCSC">C330414</field>
+        <field name="MFR.Part">C3D1U205KB00C00</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MFR.Part" value="C3D1U205KB00C00"/>
+      <property name="Description" value="2uF ±10% 600V Plugin,P=27.5mm Polypropylene Film Capacitors (CBB) ROHS"/>
+      <property name="LCSC" value="C330414"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>b2339fa6-c448-4e84-8c22-584a0c3f5a04</tstamps>
+    </comp>
+    <comp ref="C28">
+      <value>0,47u 600V</value>
+      <footprint>Capacitor_THT:C_Rect_L26.5mm_W10.5mm_P22.50mm_MKS4</footprint>
+      <fields>
+        <field name="Description">470nF ±5% 750V Plugin,P=27.5mm Polypropylene Film Capacitors (CBB) ROHS</field>
+        <field name="LCSC">C2928856</field>
+        <field name="MFR.Part">MPB474J2V2701</field>
+      </fields>
+      <libsource lib="Device" part="C_Small" description="Unpolarized capacitor, small symbol"/>
+      <property name="MFR.Part" value="MPB474J2V2701"/>
+      <property name="Description" value="470nF ±5% 750V Plugin,P=27.5mm Polypropylene Film Capacitors (CBB) ROHS"/>
+      <property name="LCSC" value="C2928856"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="Unpolarized capacitor, small symbol"/>
+      <property name="ki_keywords" value="capacitor cap"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>048d22d8-03ba-4ce1-b342-c4eb1ea6c8dd</tstamps>
+    </comp>
+    <comp ref="D12">
+      <value>LL4148</value>
+      <footprint>Diode_SMD:D_MiniMELF</footprint>
+      <datasheet>http://www.vishay.com/docs/85557/ll4148.pdf</datasheet>
+      <fields>
+        <field name="Description">75V 500mW 1V@10mA 4ns 150mA LL-34 Switching Diode ROHS</field>
+        <field name="LCSC">C2891733</field>
+        <field name="MFR.Part">LL4148</field>
+      </fields>
+      <libsource lib="Diode" part="LL4148" description="100V 0.15A standard switching diode, MiniMELF"/>
+      <property name="MFR.Part" value="LL4148"/>
+      <property name="Description" value="75V 500mW 1V@10mA 4ns 150mA LL-34 Switching Diode ROHS"/>
+      <property name="LCSC" value="C2891733"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, MiniMELF"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>6316b3d8-0067-4843-b086-c028c5c0fc9e</tstamps>
+    </comp>
+    <comp ref="D13">
+      <value>LL4148</value>
+      <footprint>Diode_SMD:D_MiniMELF</footprint>
+      <datasheet>http://www.vishay.com/docs/85557/ll4148.pdf</datasheet>
+      <fields>
+        <field name="Description">75V 500mW 1V@10mA 4ns 150mA LL-34 Switching Diode ROHS</field>
+        <field name="LCSC">C2891733</field>
+        <field name="MFR.Part">LL4148</field>
+      </fields>
+      <libsource lib="Diode" part="LL4148" description="100V 0.15A standard switching diode, MiniMELF"/>
+      <property name="MFR.Part" value="LL4148"/>
+      <property name="Description" value="75V 500mW 1V@10mA 4ns 150mA LL-34 Switching Diode ROHS"/>
+      <property name="LCSC" value="C2891733"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, MiniMELF"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>2771a806-83e8-43ed-a820-dbf547fe5810</tstamps>
+    </comp>
+    <comp ref="D14">
+      <value>LL4148</value>
+      <footprint>Diode_SMD:D_MiniMELF</footprint>
+      <datasheet>http://www.vishay.com/docs/85557/ll4148.pdf</datasheet>
+      <fields>
+        <field name="Description">75V 500mW 1V@10mA 4ns 150mA LL-34 Switching Diode ROHS</field>
+        <field name="LCSC">C2891733</field>
+        <field name="MFR.Part">LL4148</field>
+      </fields>
+      <libsource lib="Diode" part="LL4148" description="100V 0.15A standard switching diode, MiniMELF"/>
+      <property name="MFR.Part" value="LL4148"/>
+      <property name="Description" value="75V 500mW 1V@10mA 4ns 150mA LL-34 Switching Diode ROHS"/>
+      <property name="LCSC" value="C2891733"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, MiniMELF"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>189ff9ee-c586-4744-acb6-f3bf7e8a9c57</tstamps>
+    </comp>
+    <comp ref="D15">
+      <value>LL4148</value>
+      <footprint>Diode_SMD:D_MiniMELF</footprint>
+      <datasheet>http://www.vishay.com/docs/85557/ll4148.pdf</datasheet>
+      <fields>
+        <field name="Description">75V 500mW 1V@10mA 4ns 150mA LL-34 Switching Diode ROHS</field>
+        <field name="LCSC">C2891733</field>
+        <field name="MFR.Part">LL4148</field>
+      </fields>
+      <libsource lib="Diode" part="LL4148" description="100V 0.15A standard switching diode, MiniMELF"/>
+      <property name="MFR.Part" value="LL4148"/>
+      <property name="Description" value="75V 500mW 1V@10mA 4ns 150mA LL-34 Switching Diode ROHS"/>
+      <property name="LCSC" value="C2891733"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="100V 0.15A standard switching diode, MiniMELF"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>9d7cf0fb-b54d-4161-aa39-150da50169f5</tstamps>
+    </comp>
+    <comp ref="D16">
+      <value>P6KE18CA</value>
+      <footprint>Diode_THT:D_DO-201AE_P15.24mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/docs/88301/15ke.pdf</datasheet>
+      <fields>
+        <field name="Description">25.2V 17.1V 15.3V DO-15 TVS ROHS</field>
+        <field name="LCSC">C600792</field>
+        <field name="MFR.Part">P6KE18CA</field>
+      </fields>
+      <libsource lib="Diode" part="1.5KExxCA" description="1500W bidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE"/>
+      <property name="MFR.Part" value="P6KE18CA"/>
+      <property name="Description" value="25.2V 17.1V 15.3V DO-15 TVS ROHS"/>
+      <property name="LCSC" value="C600792"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="1500W bidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE"/>
+      <property name="ki_keywords" value="diode TVS voltage suppressor"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>658c3ee1-5dfd-4676-b9ca-b1abe01b24f2</tstamps>
+    </comp>
+    <comp ref="D17">
+      <value>P6KE18CA</value>
+      <footprint>Diode_THT:D_DO-201AE_P15.24mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/docs/88301/15ke.pdf</datasheet>
+      <fields>
+        <field name="Description">25.2V 17.1V 15.3V DO-15 TVS ROHS</field>
+        <field name="LCSC">C600792</field>
+        <field name="MFR.Part">P6KE18CA</field>
+      </fields>
+      <libsource lib="Diode" part="1.5KExxCA" description="1500W bidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE"/>
+      <property name="MFR.Part" value="P6KE18CA"/>
+      <property name="Description" value="25.2V 17.1V 15.3V DO-15 TVS ROHS"/>
+      <property name="LCSC" value="C600792"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="1500W bidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE"/>
+      <property name="ki_keywords" value="diode TVS voltage suppressor"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>fc19aa63-3230-465f-90db-b94cc182dd91</tstamps>
+    </comp>
+    <comp ref="D18">
+      <value>P6KE18CA</value>
+      <footprint>Diode_THT:D_DO-201AE_P15.24mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/docs/88301/15ke.pdf</datasheet>
+      <fields>
+        <field name="Description">25.2V 17.1V 15.3V DO-15 TVS ROHS</field>
+        <field name="LCSC">C600792</field>
+        <field name="MFR.Part">P6KE18CA</field>
+      </fields>
+      <libsource lib="Diode" part="1.5KExxCA" description="1500W bidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE"/>
+      <property name="MFR.Part" value="P6KE18CA"/>
+      <property name="Description" value="25.2V 17.1V 15.3V DO-15 TVS ROHS"/>
+      <property name="LCSC" value="C600792"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="1500W bidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE"/>
+      <property name="ki_keywords" value="diode TVS voltage suppressor"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>3b7a011e-485a-482a-ad4e-87dc3db81847</tstamps>
+    </comp>
+    <comp ref="D19">
+      <value>P6KE18CA</value>
+      <footprint>Diode_THT:D_DO-201AE_P15.24mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/docs/88301/15ke.pdf</datasheet>
+      <fields>
+        <field name="Description">25.2V 17.1V 15.3V DO-15 TVS ROHS</field>
+        <field name="LCSC">C600792</field>
+        <field name="MFR.Part">P6KE18CA</field>
+      </fields>
+      <libsource lib="Diode" part="1.5KExxCA" description="1500W bidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE"/>
+      <property name="MFR.Part" value="P6KE18CA"/>
+      <property name="Description" value="25.2V 17.1V 15.3V DO-15 TVS ROHS"/>
+      <property name="LCSC" value="C600792"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="1500W bidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE"/>
+      <property name="ki_keywords" value="diode TVS voltage suppressor"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>27198122-1d64-4c13-b299-d9e11caaf33a</tstamps>
+    </comp>
+    <comp ref="D20">
+      <value>UF5408</value>
+      <footprint>Diode_THT:D_DO-201AE_P15.24mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/docs/88301/15ke.pdf</datasheet>
+      <fields>
+        <field name="Description">1.7V@3A 75ns Single 3A 1kV DO-201AD Diodes - Fast Recovery Rectifiers ROHS</field>
+        <field name="LCSC">C424502</field>
+        <field name="MFR.Part">UF5408</field>
+      </fields>
+      <libsource lib="Diode" part="1.5KExxA" description="1500W unidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE"/>
+      <property name="MFR.Part" value="UF5408"/>
+      <property name="Description" value="1.7V@3A 75ns Single 3A 1kV DO-201AD Diodes - Fast Recovery Rectifiers ROHS"/>
+      <property name="LCSC" value="C424502"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="1500W unidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE"/>
+      <property name="ki_keywords" value="diode TVS voltage suppressor"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>8ddfa403-d01d-42ac-a586-d022916f42fe</tstamps>
+    </comp>
+    <comp ref="D21">
+      <value>UF5408</value>
+      <footprint>Diode_THT:D_DO-201AE_P15.24mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/docs/88301/15ke.pdf</datasheet>
+      <fields>
+        <field name="Description">1.7V@3A 75ns Single 3A 1kV DO-201AD Diodes - Fast Recovery Rectifiers ROHS</field>
+        <field name="LCSC">C424502</field>
+        <field name="MFR.Part">UF5408</field>
+      </fields>
+      <libsource lib="Diode" part="1.5KExxA" description="1500W unidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE"/>
+      <property name="MFR.Part" value="UF5408"/>
+      <property name="Description" value="1.7V@3A 75ns Single 3A 1kV DO-201AD Diodes - Fast Recovery Rectifiers ROHS"/>
+      <property name="LCSC" value="C424502"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="1500W unidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE"/>
+      <property name="ki_keywords" value="diode TVS voltage suppressor"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>0a52b832-ee16-4873-b81e-e62cb20cb801</tstamps>
+    </comp>
+    <comp ref="D22">
+      <value>UF5408</value>
+      <footprint>Diode_THT:D_DO-201AE_P15.24mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/docs/88301/15ke.pdf</datasheet>
+      <fields>
+        <field name="Description">1.7V@3A 75ns Single 3A 1kV DO-201AD Diodes - Fast Recovery Rectifiers ROHS</field>
+        <field name="LCSC">C424502</field>
+        <field name="MFR.Part">UF5408</field>
+      </fields>
+      <libsource lib="Diode" part="1.5KExxA" description="1500W unidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE"/>
+      <property name="MFR.Part" value="UF5408"/>
+      <property name="Description" value="1.7V@3A 75ns Single 3A 1kV DO-201AD Diodes - Fast Recovery Rectifiers ROHS"/>
+      <property name="LCSC" value="C424502"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="1500W unidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE"/>
+      <property name="ki_keywords" value="diode TVS voltage suppressor"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>d0c36e06-8f98-4e8c-beea-bff01c6880f1</tstamps>
+    </comp>
+    <comp ref="D23">
+      <value>UF5408</value>
+      <footprint>Diode_THT:D_DO-201AE_P15.24mm_Horizontal</footprint>
+      <datasheet>https://www.vishay.com/docs/88301/15ke.pdf</datasheet>
+      <fields>
+        <field name="Description">1.7V@3A 75ns Single 3A 1kV DO-201AD Diodes - Fast Recovery Rectifiers ROHS</field>
+        <field name="LCSC">C424502</field>
+        <field name="MFR.Part">UF5408</field>
+      </fields>
+      <libsource lib="Diode" part="1.5KExxA" description="1500W unidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE"/>
+      <property name="MFR.Part" value="UF5408"/>
+      <property name="Description" value="1.7V@3A 75ns Single 3A 1kV DO-201AD Diodes - Fast Recovery Rectifiers ROHS"/>
+      <property name="LCSC" value="C424502"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="1500W unidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE"/>
+      <property name="ki_keywords" value="diode TVS voltage suppressor"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>a6edfdd2-85f2-4728-93df-60849cabf413</tstamps>
+    </comp>
+    <comp ref="D24">
+      <value>SMBJ18CA</value>
+      <footprint>Diode_SMD:D_SMB</footprint>
+      <fields>
+        <field name="Description">18V 20V 29.2V SMB(DO-214AA) TVS ROHS</field>
+        <field name="LCSC">C440286</field>
+        <field name="MFR.Part">SMBJ18CA</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <property name="MFR.Part" value="SMBJ18CA"/>
+      <property name="Description" value="18V 20V 29.2V SMB(DO-214AA) TVS ROHS"/>
+      <property name="LCSC" value="C440286"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="Bidirectional transient-voltage-suppression diode"/>
+      <property name="ki_keywords" value="diode TVS thyrector"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>8d693c7a-746c-4beb-a3f4-f9b2776cfaa1</tstamps>
+    </comp>
+    <comp ref="D25">
+      <value>SMBJ18CA</value>
+      <footprint>Diode_SMD:D_SMB</footprint>
+      <fields>
+        <field name="Description">18V 20V 29.2V SMB(DO-214AA) TVS ROHS</field>
+        <field name="LCSC">C440286</field>
+        <field name="MFR.Part">SMBJ18CA</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <property name="MFR.Part" value="SMBJ18CA"/>
+      <property name="Description" value="18V 20V 29.2V SMB(DO-214AA) TVS ROHS"/>
+      <property name="LCSC" value="C440286"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="Bidirectional transient-voltage-suppression diode"/>
+      <property name="ki_keywords" value="diode TVS thyrector"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>5c12149d-651e-4e46-85fa-950668dc6147</tstamps>
+    </comp>
+    <comp ref="D26">
+      <value>SMBJ18CA</value>
+      <footprint>Diode_SMD:D_SMB</footprint>
+      <fields>
+        <field name="Description">18V 20V 29.2V SMB(DO-214AA) TVS ROHS</field>
+        <field name="LCSC">C440286</field>
+        <field name="MFR.Part">SMBJ18CA</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <property name="MFR.Part" value="SMBJ18CA"/>
+      <property name="Description" value="18V 20V 29.2V SMB(DO-214AA) TVS ROHS"/>
+      <property name="LCSC" value="C440286"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="Bidirectional transient-voltage-suppression diode"/>
+      <property name="ki_keywords" value="diode TVS thyrector"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>011f636e-858d-4e51-bb05-94a7b1bc5245</tstamps>
+    </comp>
+    <comp ref="D27">
+      <value>SMBJ18CA</value>
+      <footprint>Diode_SMD:D_SMB</footprint>
+      <fields>
+        <field name="Description">18V 20V 29.2V SMB(DO-214AA) TVS ROHS</field>
+        <field name="LCSC">C440286</field>
+        <field name="MFR.Part">SMBJ18CA</field>
+      </fields>
+      <libsource lib="Device" part="D_TVS" description="Bidirectional transient-voltage-suppression diode"/>
+      <property name="MFR.Part" value="SMBJ18CA"/>
+      <property name="Description" value="18V 20V 29.2V SMB(DO-214AA) TVS ROHS"/>
+      <property name="LCSC" value="C440286"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="Bidirectional transient-voltage-suppression diode"/>
+      <property name="ki_keywords" value="diode TVS thyrector"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>f807c4e5-bf43-4679-8d59-dfe9f7a6ca13</tstamps>
+    </comp>
+    <comp ref="D28">
+      <value>ES3JC</value>
+      <footprint>Diode_SMD:D_SMC</footprint>
+      <fields>
+        <field name="Description">1.65V 35ns Single 3A 600V SMC(DO-214AB) Diodes - Fast Recovery Rectifiers ROHS</field>
+        <field name="LCSC">C2936068</field>
+        <field name="MFR.Part">ES3JC</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Description" value="1.65V 35ns Single 3A 600V SMC(DO-214AB) Diodes - Fast Recovery Rectifiers ROHS"/>
+      <property name="MFR.Part" value="ES3JC"/>
+      <property name="LCSC" value="C2936068"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>ca5a2a46-e1a4-451e-8b7b-fb518c0c59ea</tstamps>
+    </comp>
+    <comp ref="D29">
+      <value>ES3JC</value>
+      <footprint>Diode_SMD:D_SMC</footprint>
+      <fields>
+        <field name="Description">1.65V 35ns Single 3A 600V SMC(DO-214AB) Diodes - Fast Recovery Rectifiers ROHS</field>
+        <field name="LCSC">C2936068</field>
+        <field name="MFR.Part">ES3JC</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Description" value="1.65V 35ns Single 3A 600V SMC(DO-214AB) Diodes - Fast Recovery Rectifiers ROHS"/>
+      <property name="MFR.Part" value="ES3JC"/>
+      <property name="LCSC" value="C2936068"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>0f93c4d8-502c-4ead-925d-b95dc8cd9629</tstamps>
+    </comp>
+    <comp ref="D30">
+      <value>ES3JC</value>
+      <footprint>Diode_SMD:D_SMC</footprint>
+      <fields>
+        <field name="Description">1.65V 35ns Single 3A 600V SMC(DO-214AB) Diodes - Fast Recovery Rectifiers ROHS</field>
+        <field name="LCSC">C2936068</field>
+        <field name="MFR.Part">ES3JC</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Description" value="1.65V 35ns Single 3A 600V SMC(DO-214AB) Diodes - Fast Recovery Rectifiers ROHS"/>
+      <property name="MFR.Part" value="ES3JC"/>
+      <property name="LCSC" value="C2936068"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>341c726f-86fb-44a8-a896-b841b827adc5</tstamps>
+    </comp>
+    <comp ref="D31">
+      <value>ES3JC</value>
+      <footprint>Diode_SMD:D_SMC</footprint>
+      <fields>
+        <field name="Description">1.65V 35ns Single 3A 600V SMC(DO-214AB) Diodes - Fast Recovery Rectifiers ROHS</field>
+        <field name="LCSC">C2936068</field>
+        <field name="MFR.Part">ES3JC</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <libsource lib="Device" part="D" description="Diode"/>
+      <property name="Sim.Device" value="D"/>
+      <property name="Sim.Pins" value="1=K 2=A"/>
+      <property name="Description" value="1.65V 35ns Single 3A 600V SMC(DO-214AB) Diodes - Fast Recovery Rectifiers ROHS"/>
+      <property name="MFR.Part" value="ES3JC"/>
+      <property name="LCSC" value="C2936068"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="Diode"/>
+      <property name="ki_keywords" value="diode"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>86be7ac2-e233-4456-96ef-c7045b848e75</tstamps>
+    </comp>
+    <comp ref="J2">
+      <value>+310</value>
+      <footprint>Z_pin:PinD2mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFR.Part" value=""/>
+      <property name="Description" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>f60fdd29-3105-422e-b20a-2496002b0025</tstamps>
+    </comp>
+    <comp ref="J3">
+      <value>-310</value>
+      <footprint>Z_pin:PinD2mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFR.Part" value=""/>
+      <property name="Description" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>38c8fbd2-1db8-4b48-b2e7-857c5611e72b</tstamps>
+    </comp>
+    <comp ref="J4">
+      <value>PowerTrans1</value>
+      <footprint>Z_pin:PinD4mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFR.Part" value=""/>
+      <property name="Description" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>c1abade9-beee-4878-a9d2-0ab3d428fc5f</tstamps>
+    </comp>
+    <comp ref="J5">
+      <value>PowerTrans2</value>
+      <footprint>Z_pin:PinD4mm</footprint>
+      <libsource lib="Connector" part="Screw_Terminal_01x01" description="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="MFR.Part" value=""/>
+      <property name="Description" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)"/>
+      <property name="ki_keywords" value="screw terminal"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>40f5da57-323f-4fd9-b727-20d4cd7c6619</tstamps>
+    </comp>
+    <comp ref="Q5">
+      <value>STW20NM60</value>
+      <footprint>Z_Package_TO:TO-247-3_Horizontal_TabUp</footprint>
+      <datasheet>https://www.wolfspeed.com/media/downloads/167/C2M0080120D.pdf</datasheet>
+      <fields>
+        <field name="Description">600V 20A 290mΩ@10V,10A 192W N Channel TO-247-3 MOSFETs ROHS</field>
+        <field name="LCSC">C262986</field>
+        <field name="MFR.Part">STW20NM60</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="C2M0080120D" description="36A Id, 1200V Vds, 80mOhm, N-Channel SiC MOSFET, TO-247"/>
+      <property name="MFR.Part" value="STW20NM60"/>
+      <property name="Description" value="600V 20A 290mΩ@10V,10A 192W N Channel TO-247-3 MOSFETs ROHS"/>
+      <property name="LCSC" value="C262986"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="36A Id, 1200V Vds, 80mOhm, N-Channel SiC MOSFET, TO-247"/>
+      <property name="ki_keywords" value="N-Channel SiC MOSFET"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>ac79eefd-24c1-4af2-8091-41d39fdcf164</tstamps>
+    </comp>
+    <comp ref="Q6">
+      <value>STW20NM60</value>
+      <footprint>Z_Package_TO:TO-247-3_Horizontal_TabUp</footprint>
+      <datasheet>https://www.wolfspeed.com/media/downloads/167/C2M0080120D.pdf</datasheet>
+      <fields>
+        <field name="Description">600V 20A 290mΩ@10V,10A 192W N Channel TO-247-3 MOSFETs ROHS</field>
+        <field name="LCSC">C262986</field>
+        <field name="MFR.Part">STW20NM60</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="C2M0080120D" description="36A Id, 1200V Vds, 80mOhm, N-Channel SiC MOSFET, TO-247"/>
+      <property name="MFR.Part" value="STW20NM60"/>
+      <property name="Description" value="600V 20A 290mΩ@10V,10A 192W N Channel TO-247-3 MOSFETs ROHS"/>
+      <property name="LCSC" value="C262986"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="36A Id, 1200V Vds, 80mOhm, N-Channel SiC MOSFET, TO-247"/>
+      <property name="ki_keywords" value="N-Channel SiC MOSFET"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>7d61a929-1121-4f31-bd6c-053e1df089b8</tstamps>
+    </comp>
+    <comp ref="Q7">
+      <value>STW20NM60</value>
+      <footprint>Z_Package_TO:TO-247-3_Horizontal_TabUp</footprint>
+      <datasheet>https://www.wolfspeed.com/media/downloads/167/C2M0080120D.pdf</datasheet>
+      <fields>
+        <field name="Description">600V 20A 290mΩ@10V,10A 192W N Channel TO-247-3 MOSFETs ROHS</field>
+        <field name="LCSC">C262986</field>
+        <field name="MFR.Part">STW20NM60</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="C2M0080120D" description="36A Id, 1200V Vds, 80mOhm, N-Channel SiC MOSFET, TO-247"/>
+      <property name="MFR.Part" value="STW20NM60"/>
+      <property name="Description" value="600V 20A 290mΩ@10V,10A 192W N Channel TO-247-3 MOSFETs ROHS"/>
+      <property name="LCSC" value="C262986"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="36A Id, 1200V Vds, 80mOhm, N-Channel SiC MOSFET, TO-247"/>
+      <property name="ki_keywords" value="N-Channel SiC MOSFET"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>c8adfa87-22a6-47ab-8b20-88e657e7004a</tstamps>
+    </comp>
+    <comp ref="Q8">
+      <value>STW20NM60</value>
+      <footprint>Z_Package_TO:TO-247-3_Horizontal_TabUp</footprint>
+      <datasheet>https://www.wolfspeed.com/media/downloads/167/C2M0080120D.pdf</datasheet>
+      <fields>
+        <field name="Description">600V 20A 290mΩ@10V,10A 192W N Channel TO-247-3 MOSFETs ROHS</field>
+        <field name="LCSC">C262986</field>
+        <field name="MFR.Part">STW20NM60</field>
+      </fields>
+      <libsource lib="Transistor_FET" part="C2M0080120D" description="36A Id, 1200V Vds, 80mOhm, N-Channel SiC MOSFET, TO-247"/>
+      <property name="MFR.Part" value="STW20NM60"/>
+      <property name="Description" value="600V 20A 290mΩ@10V,10A 192W N Channel TO-247-3 MOSFETs ROHS"/>
+      <property name="LCSC" value="C262986"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="36A Id, 1200V Vds, 80mOhm, N-Channel SiC MOSFET, TO-247"/>
+      <property name="ki_keywords" value="N-Channel SiC MOSFET"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>0308a8b0-0495-4e42-9aa6-0e8692079be2</tstamps>
+    </comp>
+    <comp ref="R29">
+      <value>20</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">250mW Thick Film Resistors ±100ppm/℃ ±5% 20Ω 1206 Chip Resistor - Surface Mount ROHS</field>
+        <field name="LCSC">C137178</field>
+        <field name="MFR.Part">RC1206JR-0720RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="RC1206JR-0720RL"/>
+      <property name="Description" value="250mW Thick Film Resistors ±100ppm/℃ ±5% 20Ω 1206 Chip Resistor - Surface Mount ROHS"/>
+      <property name="LCSC" value="C137178"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>c8fb164d-552b-49e2-800d-3c61d888b64a</tstamps>
+    </comp>
+    <comp ref="R30">
+      <value>20</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">250mW Thick Film Resistors ±100ppm/℃ ±5% 20Ω 1206 Chip Resistor - Surface Mount ROHS</field>
+        <field name="LCSC">C137178</field>
+        <field name="MFR.Part">RC1206JR-0720RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="RC1206JR-0720RL"/>
+      <property name="Description" value="250mW Thick Film Resistors ±100ppm/℃ ±5% 20Ω 1206 Chip Resistor - Surface Mount ROHS"/>
+      <property name="LCSC" value="C137178"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>3f00ec79-71cf-431c-9c41-87519738a7bd</tstamps>
+    </comp>
+    <comp ref="R31">
+      <value>20</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">250mW Thick Film Resistors ±100ppm/℃ ±5% 20Ω 1206 Chip Resistor - Surface Mount ROHS</field>
+        <field name="LCSC">C137178</field>
+        <field name="MFR.Part">RC1206JR-0720RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="RC1206JR-0720RL"/>
+      <property name="Description" value="250mW Thick Film Resistors ±100ppm/℃ ±5% 20Ω 1206 Chip Resistor - Surface Mount ROHS"/>
+      <property name="LCSC" value="C137178"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>b111f5e0-3a85-454d-b3bc-ab945132656f</tstamps>
+    </comp>
+    <comp ref="R32">
+      <value>20</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">250mW Thick Film Resistors ±100ppm/℃ ±5% 20Ω 1206 Chip Resistor - Surface Mount ROHS</field>
+        <field name="LCSC">C137178</field>
+        <field name="MFR.Part">RC1206JR-0720RL</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="RC1206JR-0720RL"/>
+      <property name="Description" value="250mW Thick Film Resistors ±100ppm/℃ ±5% 20Ω 1206 Chip Resistor - Surface Mount ROHS"/>
+      <property name="LCSC" value="C137178"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>b086e02f-9f11-4055-94ab-1d3388828175</tstamps>
+    </comp>
+    <comp ref="R33">
+      <value>2,2k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">250mW Thick Film Resistors ±100ppm/℃ ±5% 2.2kΩ 1206 Chip Resistor - Surface Mount ROHS</field>
+        <field name="LCSC">C137167</field>
+        <field name="MFR.Part">RC1206JR-072K2L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="RC1206JR-072K2L"/>
+      <property name="Description" value="250mW Thick Film Resistors ±100ppm/℃ ±5% 2.2kΩ 1206 Chip Resistor - Surface Mount ROHS"/>
+      <property name="LCSC" value="C137167"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>de3673ae-56ae-4cd0-add6-3e7747f644fd</tstamps>
+    </comp>
+    <comp ref="R34">
+      <value>2,2k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">250mW Thick Film Resistors ±100ppm/℃ ±5% 2.2kΩ 1206 Chip Resistor - Surface Mount ROHS</field>
+        <field name="LCSC">C137167</field>
+        <field name="MFR.Part">RC1206JR-072K2L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="RC1206JR-072K2L"/>
+      <property name="Description" value="250mW Thick Film Resistors ±100ppm/℃ ±5% 2.2kΩ 1206 Chip Resistor - Surface Mount ROHS"/>
+      <property name="LCSC" value="C137167"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>78d2ff67-21f9-40c8-a880-e8816d74941f</tstamps>
+    </comp>
+    <comp ref="R35">
+      <value>2,2k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">250mW Thick Film Resistors ±100ppm/℃ ±5% 2.2kΩ 1206 Chip Resistor - Surface Mount ROHS</field>
+        <field name="LCSC">C137167</field>
+        <field name="MFR.Part">RC1206JR-072K2L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="RC1206JR-072K2L"/>
+      <property name="Description" value="250mW Thick Film Resistors ±100ppm/℃ ±5% 2.2kΩ 1206 Chip Resistor - Surface Mount ROHS"/>
+      <property name="LCSC" value="C137167"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>5300b0e2-e063-4104-86aa-8472f0353361</tstamps>
+    </comp>
+    <comp ref="R36">
+      <value>2,2k</value>
+      <footprint>Resistor_SMD:R_1206_3216Metric</footprint>
+      <fields>
+        <field name="Description">250mW Thick Film Resistors ±100ppm/℃ ±5% 2.2kΩ 1206 Chip Resistor - Surface Mount ROHS</field>
+        <field name="LCSC">C137167</field>
+        <field name="MFR.Part">RC1206JR-072K2L</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="RC1206JR-072K2L"/>
+      <property name="Description" value="250mW Thick Film Resistors ±100ppm/℃ ±5% 2.2kΩ 1206 Chip Resistor - Surface Mount ROHS"/>
+      <property name="LCSC" value="C137167"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>e63d4ebd-2d98-4010-86b9-d524f1328344</tstamps>
+    </comp>
+    <comp ref="R37">
+      <value>0,01</value>
+      <footprint>Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value=""/>
+      <property name="Description" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>0b00fa19-9cf3-4aeb-a6e7-926022499415</tstamps>
+    </comp>
+    <comp ref="R38">
+      <value>0,01</value>
+      <footprint>Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value=""/>
+      <property name="Description" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>65875618-3e8c-498e-bca8-163622ce0e24</tstamps>
+    </comp>
+    <comp ref="R39">
+      <value>0,01</value>
+      <footprint>Resistor_THT:R_Axial_DIN0411_L9.9mm_D3.6mm_P15.24mm_Horizontal</footprint>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value=""/>
+      <property name="Description" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>852153cb-8212-4eb2-9b52-0eb8b76fb871</tstamps>
+    </comp>
+    <comp ref="R40">
+      <value>18 2W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal</footprint>
+      <fields>
+        <field name="Description">18Ω 2W ±350ppm/℃ ±5% Plugin,5x15.5mm Through Hole Resistors ROHS</field>
+        <field name="LCSC">C2903435</field>
+        <field name="MFR.Part">CR2W-18Ω±5%-9T73</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="CR2W-18Ω±5%-9T73"/>
+      <property name="Description" value="18Ω 2W ±350ppm/℃ ±5% Plugin,5x15.5mm Through Hole Resistors ROHS"/>
+      <property name="LCSC" value="C2903435"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>a319c79b-93f5-4ad2-8002-1b800459f661</tstamps>
+    </comp>
+    <comp ref="R41">
+      <value>18 2W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal</footprint>
+      <fields>
+        <field name="Description">18Ω 2W ±350ppm/℃ ±5% Plugin,5x15.5mm Through Hole Resistors ROHS</field>
+        <field name="LCSC">C2903435</field>
+        <field name="MFR.Part">CR2W-18Ω±5%-9T73</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="CR2W-18Ω±5%-9T73"/>
+      <property name="Description" value="18Ω 2W ±350ppm/℃ ±5% Plugin,5x15.5mm Through Hole Resistors ROHS"/>
+      <property name="LCSC" value="C2903435"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>bf5d9269-e138-4662-a663-1fe58a5abe71</tstamps>
+    </comp>
+    <comp ref="R42">
+      <value>18 2W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal</footprint>
+      <fields>
+        <field name="Description">18Ω 2W ±350ppm/℃ ±5% Plugin,5x15.5mm Through Hole Resistors ROHS</field>
+        <field name="LCSC">C2903435</field>
+        <field name="MFR.Part">CR2W-18Ω±5%-9T73</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="CR2W-18Ω±5%-9T73"/>
+      <property name="Description" value="18Ω 2W ±350ppm/℃ ±5% Plugin,5x15.5mm Through Hole Resistors ROHS"/>
+      <property name="LCSC" value="C2903435"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>15004e47-8144-45c3-adbf-f48c2eade36e</tstamps>
+    </comp>
+    <comp ref="R43">
+      <value>18 2W</value>
+      <footprint>Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal</footprint>
+      <fields>
+        <field name="Description">18Ω 2W ±350ppm/℃ ±5% Plugin,5x15.5mm Through Hole Resistors ROHS</field>
+        <field name="LCSC">C2903435</field>
+        <field name="MFR.Part">CR2W-18Ω±5%-9T73</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="CR2W-18Ω±5%-9T73"/>
+      <property name="Description" value="18Ω 2W ±350ppm/℃ ±5% Plugin,5x15.5mm Through Hole Resistors ROHS"/>
+      <property name="LCSC" value="C2903435"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>9fddd93d-b6c7-40cc-9ae1-a5de79e4d556</tstamps>
+    </comp>
+    <comp ref="R44">
+      <value>0,01</value>
+      <footprint>Resistor_SMD:R_2816_7142Metric</footprint>
+      <fields>
+        <field name="Description">2W ±75ppm/℃ ±1% 10mΩ 2816 Chip Resistor - Surface Mount ROHS</field>
+        <field name="LCSC">C843884</field>
+        <field name="MFR.Part">WSL2816R0100FEH</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="WSL2816R0100FEH"/>
+      <property name="Description" value="2W ±75ppm/℃ ±1% 10mΩ 2816 Chip Resistor - Surface Mount ROHS"/>
+      <property name="LCSC" value="C843884"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>10b6491b-f897-4f30-a164-498287b88a52</tstamps>
+    </comp>
+    <comp ref="R45">
+      <value>0,01</value>
+      <footprint>Resistor_SMD:R_2816_7142Metric</footprint>
+      <fields>
+        <field name="Description">2W ±75ppm/℃ ±1% 10mΩ 2816 Chip Resistor - Surface Mount ROHS</field>
+        <field name="LCSC">C843884</field>
+        <field name="MFR.Part">WSL2816R0100FEH</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="WSL2816R0100FEH"/>
+      <property name="Description" value="2W ±75ppm/℃ ±1% 10mΩ 2816 Chip Resistor - Surface Mount ROHS"/>
+      <property name="LCSC" value="C843884"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>88b84dae-e6d8-4599-945a-3bc77ab48a2c</tstamps>
+    </comp>
+    <comp ref="R46">
+      <value>0,01</value>
+      <footprint>Resistor_SMD:R_2816_7142Metric</footprint>
+      <fields>
+        <field name="Description">2W ±75ppm/℃ ±1% 10mΩ 2816 Chip Resistor - Surface Mount ROHS</field>
+        <field name="LCSC">C843884</field>
+        <field name="MFR.Part">WSL2816R0100FEH</field>
+      </fields>
+      <libsource lib="Device" part="R" description="Resistor"/>
+      <property name="MFR.Part" value="WSL2816R0100FEH"/>
+      <property name="Description" value="2W ±75ppm/℃ ±1% 10mΩ 2816 Chip Resistor - Surface Mount ROHS"/>
+      <property name="LCSC" value="C843884"/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="Resistor"/>
+      <property name="ki_keywords" value="R res resistor"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>ccfa6544-b8f0-4770-8a83-bca22afd488f</tstamps>
+    </comp>
+    <comp ref="T1">
+      <value>Transformer_SP_2S</value>
+      <footprint>Z_transform:Trans_SP_2S</footprint>
+      <libsource lib="Device" part="Transformer_SP_2S" description="Transformer, split primary, dual secondary"/>
+      <property name="MFR.Part" value=""/>
+      <property name="Description" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="Transformer, split primary, dual secondary"/>
+      <property name="ki_keywords" value="transformer coil magnet"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>dfffe098-d0ec-437a-a977-1fc9e19c0d29</tstamps>
+    </comp>
+    <comp ref="T2">
+      <value>Transformer_SP_2S</value>
+      <footprint>Z_transform:Trans_SP_2S</footprint>
+      <libsource lib="Device" part="Transformer_SP_2S" description="Transformer, split primary, dual secondary"/>
+      <property name="MFR.Part" value=""/>
+      <property name="Description" value=""/>
+      <property name="LCSC" value=""/>
+      <property name="Sheetname" value="PowerFet"/>
+      <property name="Sheetfile" value="PowerFet.kicad_sch"/>
+      <property name="ki_description" value="Transformer, split primary, dual secondary"/>
+      <property name="ki_keywords" value="transformer coil magnet"/>
+      <sheetpath names="/PowerFet/" tstamps="/a62abef3-5f5d-4a40-b8c6-364ce9925bce/"/>
+      <tstamps>00639f0d-cad1-4908-8eb2-d4d817da928c</tstamps>
+    </comp>
+  </components>
+  <libparts>
+    <libpart lib="Comparator" part="LM311">
+      <description>Voltage Comparator, DIP-8/SOIC-8</description>
+      <docs>https://www.st.com/resource/en/datasheet/lm311.pdf</docs>
+      <footprints>
+        <fp>SOIC*3.9x4.9mm*P1.27mm*</fp>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">LM311</field>
+        <field name="Datasheet">https://www.st.com/resource/en/datasheet/lm311.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="GND" type="passive"/>
+        <pin num="2" name="+" type="input"/>
+        <pin num="3" name="-" type="input"/>
+        <pin num="4" name="V-" type="power_in"/>
+        <pin num="5" name="BAL" type="input"/>
+        <pin num="6" name="STRB" type="input"/>
+        <pin num="7" name="" type="open_collector"/>
+        <pin num="8" name="V+" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Connector" part="Screw_Terminal_01x01">
+      <description>Generic screw terminal, single row, 01x01, script generated (kicad-library-utils/schlib/autogen/connector/)</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TerminalBlock*:*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">J</field>
+        <field name="Value">Screw_Terminal_01x01</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="Pin_1" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Polarized_Small">
+      <description>Polarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>CP_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Polarized_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="C_Small">
+      <description>Unpolarized capacitor, small symbol</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>C_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">C</field>
+        <field name="Value">C_Small</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D">
+      <description>Diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D</field>
+        <field name="Datasheet">~</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="D_TVS">
+      <description>Bidirectional transient-voltage-suppression diode</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>TO-???*</fp>
+        <fp>*_Diode_*</fp>
+        <fp>*SingleDiode*</fp>
+        <fp>D_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">D_TVS</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R">
+      <description>Resistor</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>R_*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">R</field>
+        <field name="Value">R</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="R_Potentiometer">
+      <description>Potentiometer</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Potentiometer*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">RV</field>
+        <field name="Value">R_Potentiometer</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="passive"/>
+        <pin num="2" name="2" type="passive"/>
+        <pin num="3" name="3" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Device" part="Transformer_SP_2S">
+      <description>Transformer, split primary, dual secondary</description>
+      <docs>~</docs>
+      <fields>
+        <field name="Reference">T</field>
+        <field name="Value">Transformer_SP_2S</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN+" type="passive"/>
+        <pin num="2" name="PM" type="passive"/>
+        <pin num="3" name="IN-" type="passive"/>
+        <pin num="4" name="OUT1A" type="passive"/>
+        <pin num="5" name="OUT1B" type="passive"/>
+        <pin num="6" name="OUT2A" type="passive"/>
+        <pin num="7" name="OUT2B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1.5KExxA">
+      <description>1500W unidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE</description>
+      <docs>https://www.vishay.com/docs/88301/15ke.pdf</docs>
+      <footprints>
+        <fp>D?DO?201AE*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1.5KExxA</field>
+        <field name="Footprint">Diode_THT:D_DO-201AE_P15.24mm_Horizontal</field>
+        <field name="Datasheet">https://www.vishay.com/docs/88301/15ke.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="1.5KExxCA">
+      <description>1500W bidirectional TRANSZORB® Transient Voltage Suppressor, DO-201AE</description>
+      <docs>https://www.vishay.com/docs/88301/15ke.pdf</docs>
+      <footprints>
+        <fp>D?DO?201AE*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">1.5KExxCA</field>
+        <field name="Footprint">Diode_THT:D_DO-201AE_P15.24mm_Horizontal</field>
+        <field name="Datasheet">https://www.vishay.com/docs/88301/15ke.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A1" type="passive"/>
+        <pin num="2" name="A2" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Diode" part="LL4148">
+      <description>100V 0.15A standard switching diode, MiniMELF</description>
+      <docs>http://www.vishay.com/docs/85557/ll4148.pdf</docs>
+      <footprints>
+        <fp>D*MiniMELF*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Value">LL4148</field>
+        <field name="Footprint">Diode_SMD:D_MiniMELF</field>
+        <field name="Datasheet">http://www.vishay.com/docs/85557/ll4148.pdf</field>
+        <field name="Sim.Device">D</field>
+        <field name="Sim.Pins">1=K 2=A</field>
+      </fields>
+      <pins>
+        <pin num="1" name="K" type="passive"/>
+        <pin num="2" name="A" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Isolator" part="6N137">
+      <description>Single High Speed LSTTL/TTL Compatible Optocoupler with enable, dV/dt 1000/us, VCM 10, max 7V VCC, DIP-8</description>
+      <docs>https://docs.broadcom.com/docs/AV02-0940EN</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">6N137</field>
+        <field name="Footprint">Package_DIP:DIP-8_W7.62mm</field>
+        <field name="Datasheet">https://docs.broadcom.com/docs/AV02-0940EN</field>
+      </fields>
+      <pins>
+        <pin num="1" name="NC" type="no_connect"/>
+        <pin num="2" name="A" type="passive"/>
+        <pin num="3" name="C" type="passive"/>
+        <pin num="5" name="GND" type="power_in"/>
+        <pin num="6" name="VO" type="open_collector"/>
+        <pin num="7" name="EN" type="input"/>
+        <pin num="8" name="VCC" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Isolator" part="PC817">
+      <description>DC Optocoupler, Vce 35V, CTR 50-300%, DIP-4</description>
+      <docs>http://www.soselectronic.cz/a_info/resource/d/pc817.pdf</docs>
+      <footprints>
+        <fp>DIP*W7.62mm*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">PC817</field>
+        <field name="Footprint">Package_DIP:DIP-4_W7.62mm</field>
+        <field name="Datasheet">http://www.soselectronic.cz/a_info/resource/d/pc817.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="" type="passive"/>
+        <pin num="2" name="" type="passive"/>
+        <pin num="3" name="" type="passive"/>
+        <pin num="4" name="" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Jumper" part="Jumper_3_Open">
+      <description>Jumper, 3-pole, both open</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>Jumper*</fp>
+        <fp>TestPoint*3Pads*</fp>
+        <fp>TestPoint*Bridge*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">JP</field>
+        <field name="Value">Jumper_3_Open</field>
+        <field name="Datasheet">~</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="C" type="passive"/>
+        <pin num="3" name="B" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Mechanical" part="MountingHole">
+      <description>Mounting Hole without connection</description>
+      <docs>~</docs>
+      <footprints>
+        <fp>MountingHole*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">H</field>
+        <field name="Value">MountingHole</field>
+        <field name="Datasheet">~</field>
+      </fields>
+    </libpart>
+    <libpart lib="Regulator_Linear" part="L7805">
+      <description>Positive 1.5A 35V Linear Regulator, Fixed Output 5V, TO-220/TO-263/TO-252</description>
+      <docs>http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+        <fp>TO?263*</fp>
+        <fp>TO?220*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">L7805</field>
+        <field name="Datasheet">http://www.st.com/content/ccc/resource/technical/document/datasheet/41/4f/b3/b0/12/d4/47/88/CD00000444.pdf/files/CD00000444.pdf/jcr:content/translations/en.CD00000444.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="IN" type="power_in"/>
+        <pin num="2" name="GND" type="power_in"/>
+        <pin num="3" name="OUT" type="power_out"/>
+      </pins>
+    </libpart>
+    <libpart lib="Sensor_Temperature" part="TC1047AxNB">
+      <description>Precision Temperature-to-Voltage Converter, 10mV/ºC, -40ºC to +125ºC, ±2.0ºC (max), 2.5V to 5.5V, SOT-23</description>
+      <docs>http://ww1.microchip.com/downloads/en/DeviceDoc/21498D.pdf</docs>
+      <footprints>
+        <fp>SOT?23*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Value">TC1047AxNB</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+        <field name="Datasheet">http://ww1.microchip.com/downloads/en/DeviceDoc/21498D.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="V_{DD}" type="power_in"/>
+        <pin num="2" name="V_{OUT}" type="output"/>
+        <pin num="3" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="C2M0080120D">
+      <description>36A Id, 1200V Vds, 80mOhm, N-Channel SiC MOSFET, TO-247</description>
+      <docs>https://www.wolfspeed.com/media/downloads/167/C2M0080120D.pdf</docs>
+      <footprints>
+        <fp>TO?247*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">C2M0080120D</field>
+        <field name="Footprint">Package_TO_SOT_THT:TO-247-3_Vertical</field>
+        <field name="Datasheet">https://www.wolfspeed.com/media/downloads/167/C2M0080120D.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Transistor_FET" part="QM6006D">
+      <description>35A Id, 60V Vds, N-Channel Power MOSFET, 18mOhm Ron, 19.3nC Qg (typ), TO252</description>
+      <docs>http://www.jaolen.com/images/pdf/QM6006D.pdf</docs>
+      <footprints>
+        <fp>TO?252*</fp>
+      </footprints>
+      <fields>
+        <field name="Reference">Q</field>
+        <field name="Value">QM6006D</field>
+        <field name="Footprint">Package_TO_SOT_SMD:TO-252-2</field>
+        <field name="Datasheet">http://www.jaolen.com/images/pdf/QM6006D.pdf</field>
+      </fields>
+      <pins>
+        <pin num="1" name="G" type="input"/>
+        <pin num="2" name="D" type="passive"/>
+        <pin num="3" name="S" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Z_connectors" part="BH-10">
+      <fields>
+        <field name="Reference">J</field>
+      </fields>
+      <pins>
+        <pin num="1" name="1" type="input"/>
+        <pin num="2" name="2" type="input"/>
+        <pin num="3" name="3" type="input"/>
+        <pin num="4" name="4" type="input"/>
+        <pin num="5" name="5" type="input"/>
+        <pin num="6" name="6" type="input"/>
+        <pin num="7" name="7" type="input"/>
+        <pin num="8" name="8" type="input"/>
+        <pin num="9" name="9" type="input"/>
+        <pin num="10" name="10" type="input"/>
+      </pins>
+    </libpart>
+    <libpart lib="Z_led" part="Led">
+      <fields>
+        <field name="Reference">D</field>
+        <field name="Footprint">LED_THT:LED_D3.0mm</field>
+      </fields>
+      <pins>
+        <pin num="1" name="A" type="passive"/>
+        <pin num="2" name="K" type="passive"/>
+      </pins>
+    </libpart>
+    <libpart lib="Z_modules" part="BluePillStm32">
+      <fields>
+        <field name="Reference">M</field>
+        <field name="Value">BluePillStm32</field>
+        <field name="Footprint">Package_DIP:DIP-40_W15.24mm_Socket_LongPads</field>
+      </fields>
+      <pins>
+        <pin num="1" name="PB12/SPI2_NSS" type="tri_state"/>
+        <pin num="2" name="PB13/SPI2_SCK" type="tri_state"/>
+        <pin num="3" name="PB14/SPI2_MISO" type="tri_state"/>
+        <pin num="4" name="PB15/SPI2_MOSI" type="tri_state"/>
+        <pin num="5" name="PA8" type="tri_state"/>
+        <pin num="6" name="PA9/USART1_TX" type="tri_state"/>
+        <pin num="7" name="PA10/USART1_RX" type="tri_state"/>
+        <pin num="8" name="PA11" type="tri_state"/>
+        <pin num="9" name="PA12" type="tri_state"/>
+        <pin num="10" name="PA15/SPI1_NSS" type="tri_state"/>
+        <pin num="11" name="PB3/SPI1_SCK" type="tri_state"/>
+        <pin num="12" name="PB4/SPI1_MISO" type="tri_state"/>
+        <pin num="13" name="PB5/SPI1_MOSI" type="tri_state"/>
+        <pin num="14" name="PB6/USART1_TX" type="tri_state"/>
+        <pin num="15" name="PB7/USART1_RX" type="tri_state"/>
+        <pin num="16" name="PB8" type="tri_state"/>
+        <pin num="17" name="PB9" type="tri_state"/>
+        <pin num="18" name="5V" type="power_in"/>
+        <pin num="19" name="GND" type="power_in"/>
+        <pin num="20" name="3V3" type="power_in"/>
+        <pin num="21" name="VBAT" type="power_in"/>
+        <pin num="22" name="PC13" type="tri_state"/>
+        <pin num="23" name="PC14" type="tri_state"/>
+        <pin num="24" name="PC15" type="tri_state"/>
+        <pin num="25" name="PA0" type="tri_state"/>
+        <pin num="26" name="PA1" type="tri_state"/>
+        <pin num="27" name="PA2/USART2_TX" type="tri_state"/>
+        <pin num="28" name="PA3/USART2_RX" type="tri_state"/>
+        <pin num="29" name="PA4/SPI1_NSS" type="tri_state"/>
+        <pin num="30" name="PA5/SPI1_SCK" type="tri_state"/>
+        <pin num="31" name="PA6/SPI1_MISO" type="tri_state"/>
+        <pin num="32" name="PA7/SPI_MOSI" type="tri_state"/>
+        <pin num="33" name="PB0" type="tri_state"/>
+        <pin num="34" name="PB1" type="tri_state"/>
+        <pin num="35" name="PB10/USART3_TX" type="tri_state"/>
+        <pin num="36" name="PB11/USART3_RX" type="tri_state"/>
+        <pin num="37" name="NRST" type="tri_state"/>
+        <pin num="38" name="3V3" type="power_in"/>
+        <pin num="39" name="GND" type="power_in"/>
+        <pin num="40" name="GND" type="power_in"/>
+      </pins>
+    </libpart>
+    <libpart lib="Z_modules" part="L7805_SOT23">
+      <fields>
+        <field name="Reference">U</field>
+        <field name="Footprint">Package_TO_SOT_SMD:SOT-23</field>
+      </fields>
+      <pins>
+        <pin num="1" name="OUT" type="input"/>
+        <pin num="2" name="IN" type="input"/>
+        <pin num="3" name="GND" type="input"/>
+      </pins>
+    </libpart>
+  </libparts>
+  <libraries>
+    <library logical="Comparator">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Comparator.kicad_sym</uri>
+    </library>
+    <library logical="Connector">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Connector.kicad_sym</uri>
+    </library>
+    <library logical="Device">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Device.kicad_sym</uri>
+    </library>
+    <library logical="Diode">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Diode.kicad_sym</uri>
+    </library>
+    <library logical="Isolator">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Isolator.kicad_sym</uri>
+    </library>
+    <library logical="Jumper">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Jumper.kicad_sym</uri>
+    </library>
+    <library logical="Mechanical">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Mechanical.kicad_sym</uri>
+    </library>
+    <library logical="Regulator_Linear">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Regulator_Linear.kicad_sym</uri>
+    </library>
+    <library logical="Sensor_Temperature">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Sensor_Temperature.kicad_sym</uri>
+    </library>
+    <library logical="Transistor_FET">
+      <uri>C:\Program Files\KiCad\7.0\share\kicad\symbols\/Transistor_FET.kicad_sym</uri>
+    </library>
+    <library logical="Z_connectors">
+      <uri>D:/KiCad/Libraries/Z_connectors.kicad_sym</uri>
+    </library>
+    <library logical="Z_led">
+      <uri>D:/KiCad/Libraries/Z_led.kicad_sym</uri>
+    </library>
+    <library logical="Z_modules">
+      <uri>D:/KiCad/Libraries/Z_modules.kicad_sym</uri>
+    </library>
+  </libraries>
+  <nets>
+    <net code="1" name="+3V3">
+      <node ref="C1" pin="1" pintype="passive"/>
+      <node ref="JP2" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="M1" pin="20" pinfunction="3V3" pintype="power_in"/>
+    </net>
+    <net code="2" name="+5V">
+      <node ref="C2" pin="1" pintype="passive"/>
+      <node ref="C29" pin="1" pintype="passive"/>
+      <node ref="C6" pin="1" pintype="passive"/>
+      <node ref="C8" pin="1" pintype="passive"/>
+      <node ref="D1" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="4" pinfunction="4" pintype="input"/>
+      <node ref="M1" pin="18" pinfunction="5V" pintype="power_in"/>
+      <node ref="R1" pin="2" pintype="passive"/>
+      <node ref="R18" pin="2" pintype="passive"/>
+      <node ref="U2" pin="3" pinfunction="OUT" pintype="power_out"/>
+      <node ref="U3" pin="1" pinfunction="V_{DD}" pintype="power_in"/>
+      <node ref="U6" pin="7" pinfunction="EN" pintype="input"/>
+      <node ref="U6" pin="8" pinfunction="VCC" pintype="power_in"/>
+    </net>
+    <net code="3" name="+12V">
+      <node ref="C19" pin="2" pintype="passive"/>
+      <node ref="C20" pin="2" pintype="passive"/>
+      <node ref="C3" pin="1" pintype="passive"/>
+      <node ref="C4" pin="1" pintype="passive"/>
+      <node ref="C5" pin="1" pintype="passive"/>
+      <node ref="J1" pin="2" pinfunction="2" pintype="input"/>
+      <node ref="R10" pin="2" pintype="passive"/>
+      <node ref="T1" pin="2" pinfunction="PM" pintype="passive"/>
+      <node ref="T2" pin="2" pinfunction="PM" pintype="passive"/>
+      <node ref="U2" pin="1" pinfunction="IN" pintype="power_in"/>
+    </net>
+    <net code="4" name="/DriverFet/Driver_A">
+      <node ref="Q1" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="R27" pin="2" pintype="passive"/>
+      <node ref="T1" pin="3" pinfunction="IN-" pintype="passive"/>
+    </net>
+    <net code="5" name="/DriverFet/Driver_AN">
+      <node ref="C21" pin="2" pintype="passive"/>
+      <node ref="Q2" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="T1" pin="1" pinfunction="IN+" pintype="passive"/>
+    </net>
+    <net code="6" name="/DriverFet/Driver_B">
+      <node ref="Q3" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="R28" pin="2" pintype="passive"/>
+      <node ref="T2" pin="1" pinfunction="IN+" pintype="passive"/>
+    </net>
+    <net code="7" name="/DriverFet/Driver_BN">
+      <node ref="C22" pin="2" pintype="passive"/>
+      <node ref="Q4" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="T2" pin="3" pinfunction="IN-" pintype="passive"/>
+    </net>
+    <net code="8" name="/IN1">
+      <node ref="J1" pin="10" pinfunction="10" pintype="input"/>
+      <node ref="U1" pin="1" pintype="passive"/>
+    </net>
+    <net code="9" name="/IN_1">
+      <node ref="C7" pin="1" pintype="passive"/>
+      <node ref="M1" pin="4" pinfunction="PB15/SPI2_MOSI" pintype="tri_state"/>
+      <node ref="R1" pin="1" pintype="passive"/>
+      <node ref="U1" pin="4" pintype="passive"/>
+    </net>
+    <net code="10" name="/I_ER">
+      <node ref="M1" pin="1" pinfunction="PB12/SPI2_NSS" pintype="tri_state"/>
+      <node ref="R18" pin="1" pintype="passive"/>
+      <node ref="U6" pin="6" pinfunction="VO" pintype="open_collector"/>
+    </net>
+    <net code="11" name="/LED1">
+      <node ref="M1" pin="25" pinfunction="PA0" pintype="tri_state"/>
+      <node ref="R7" pin="1" pintype="passive"/>
+    </net>
+    <net code="12" name="/LED2">
+      <node ref="M1" pin="26" pinfunction="PA1" pintype="tri_state"/>
+      <node ref="R6" pin="1" pintype="passive"/>
+    </net>
+    <net code="13" name="/LED3">
+      <node ref="M1" pin="27" pinfunction="PA2/USART2_TX" pintype="tri_state"/>
+      <node ref="R5" pin="1" pintype="passive"/>
+    </net>
+    <net code="14" name="/OS">
+      <node ref="C30" pin="1" pintype="passive"/>
+      <node ref="JP1" pin="2" pinfunction="C" pintype="passive"/>
+      <node ref="M1" pin="34" pinfunction="PB1" pintype="tri_state"/>
+    </net>
+    <net code="15" name="/OS_IN">
+      <node ref="J1" pin="6" pinfunction="6" pintype="input"/>
+      <node ref="R2" pin="1" pintype="passive"/>
+    </net>
+    <net code="16" name="/OUTI1">
+      <node ref="J1" pin="8" pinfunction="8" pintype="input"/>
+      <node ref="R8" pin="1" pintype="passive"/>
+    </net>
+    <net code="17" name="/OUT_1">
+      <node ref="C10" pin="1" pintype="passive"/>
+      <node ref="M1" pin="36" pinfunction="PB11/USART3_RX" pintype="tri_state"/>
+      <node ref="R8" pin="2" pintype="passive"/>
+    </net>
+    <net code="18" name="/PWM_A">
+      <node ref="D8" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="M1" pin="6" pinfunction="PA9/USART1_TX" pintype="tri_state"/>
+      <node ref="R19" pin="2" pintype="passive"/>
+      <node ref="R23" pin="2" pintype="passive"/>
+    </net>
+    <net code="19" name="/PWM_AN">
+      <node ref="D9" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="M1" pin="3" pinfunction="PB14/SPI2_MISO" pintype="tri_state"/>
+      <node ref="R20" pin="1" pintype="passive"/>
+      <node ref="R24" pin="2" pintype="passive"/>
+    </net>
+    <net code="20" name="/PWM_B">
+      <node ref="D10" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="M1" pin="5" pinfunction="PA8" pintype="tri_state"/>
+      <node ref="R21" pin="2" pintype="passive"/>
+      <node ref="R25" pin="2" pintype="passive"/>
+    </net>
+    <net code="21" name="/PWM_BN">
+      <node ref="D11" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="M1" pin="2" pinfunction="PB13/SPI2_SCK" pintype="tri_state"/>
+      <node ref="R22" pin="1" pintype="passive"/>
+      <node ref="R26" pin="2" pintype="passive"/>
+    </net>
+    <net code="22" name="/Shunt+">
+      <node ref="D17" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="D19" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="D21" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D23" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D24" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="D26" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="D29" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D31" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q6" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q8" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R17" pin="2" pintype="passive"/>
+      <node ref="R34" pin="1" pintype="passive"/>
+      <node ref="R36" pin="1" pintype="passive"/>
+      <node ref="R37" pin="1" pintype="passive"/>
+      <node ref="R38" pin="1" pintype="passive"/>
+      <node ref="R39" pin="1" pintype="passive"/>
+      <node ref="R41" pin="2" pintype="passive"/>
+      <node ref="R43" pin="2" pintype="passive"/>
+      <node ref="R44" pin="1" pintype="passive"/>
+      <node ref="R45" pin="1" pintype="passive"/>
+      <node ref="R46" pin="1" pintype="passive"/>
+      <node ref="T1" pin="7" pinfunction="OUT2B" pintype="passive"/>
+      <node ref="T2" pin="7" pinfunction="OUT2B" pintype="passive"/>
+    </net>
+    <net code="23" name="/Shunt-">
+      <node ref="C14" pin="2" pintype="passive"/>
+      <node ref="C15" pin="1" pintype="passive"/>
+      <node ref="C16" pin="2" pintype="passive"/>
+      <node ref="C17" pin="2" pintype="passive"/>
+      <node ref="C18" pin="2" pintype="passive"/>
+      <node ref="C28" pin="2" pintype="passive"/>
+      <node ref="J3" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="R14" pin="2" pintype="passive"/>
+      <node ref="R16" pin="1" pintype="passive"/>
+      <node ref="R37" pin="2" pintype="passive"/>
+      <node ref="R38" pin="2" pintype="passive"/>
+      <node ref="R39" pin="2" pintype="passive"/>
+      <node ref="R44" pin="2" pintype="passive"/>
+      <node ref="R45" pin="2" pintype="passive"/>
+      <node ref="R46" pin="2" pintype="passive"/>
+      <node ref="U4" pin="3" pinfunction="GND" pintype="input"/>
+      <node ref="U5" pin="1" pinfunction="GND" pintype="passive"/>
+    </net>
+    <net code="24" name="/TMP">
+      <node ref="C12" pin="1" pintype="passive"/>
+      <node ref="M1" pin="32" pinfunction="PA7/SPI_MOSI" pintype="tri_state"/>
+      <node ref="R9" pin="2" pintype="passive"/>
+    </net>
+    <net code="25" name="/Transf_out">
+      <node ref="D13" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R12" pin="2" pintype="passive"/>
+      <node ref="R30" pin="2" pintype="passive"/>
+      <node ref="T2" pin="6" pinfunction="OUT2A" pintype="passive"/>
+    </net>
+    <net code="26" name="/UP">
+      <node ref="C11" pin="1" pintype="passive"/>
+      <node ref="M1" pin="33" pinfunction="PB0" pintype="tri_state"/>
+      <node ref="R10" pin="1" pintype="passive"/>
+      <node ref="R11" pin="2" pintype="passive"/>
+    </net>
+    <net code="27" name="GND">
+      <node ref="C1" pin="2" pintype="passive"/>
+      <node ref="C10" pin="2" pintype="passive"/>
+      <node ref="C11" pin="2" pintype="passive"/>
+      <node ref="C12" pin="2" pintype="passive"/>
+      <node ref="C19" pin="1" pintype="passive"/>
+      <node ref="C2" pin="2" pintype="passive"/>
+      <node ref="C20" pin="1" pintype="passive"/>
+      <node ref="C29" pin="2" pintype="passive"/>
+      <node ref="C3" pin="2" pintype="passive"/>
+      <node ref="C30" pin="2" pintype="passive"/>
+      <node ref="C4" pin="2" pintype="passive"/>
+      <node ref="C5" pin="2" pintype="passive"/>
+      <node ref="C6" pin="2" pintype="passive"/>
+      <node ref="C7" pin="2" pintype="passive"/>
+      <node ref="C8" pin="2" pintype="passive"/>
+      <node ref="C9" pin="2" pintype="passive"/>
+      <node ref="D2" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="D3" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="D4" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="J1" pin="1" pinfunction="1" pintype="input"/>
+      <node ref="J1" pin="3" pinfunction="3" pintype="input"/>
+      <node ref="J1" pin="5" pinfunction="5" pintype="input"/>
+      <node ref="J1" pin="7" pinfunction="7" pintype="input"/>
+      <node ref="J1" pin="9" pinfunction="9" pintype="input"/>
+      <node ref="JP2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="M1" pin="19" pinfunction="GND" pintype="power_in"/>
+      <node ref="M1" pin="39" pinfunction="GND" pintype="power_in"/>
+      <node ref="M1" pin="40" pinfunction="GND" pintype="power_in"/>
+      <node ref="Q1" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q2" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q3" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q4" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="R11" pin="1" pintype="passive"/>
+      <node ref="R19" pin="1" pintype="passive"/>
+      <node ref="R20" pin="2" pintype="passive"/>
+      <node ref="R21" pin="1" pintype="passive"/>
+      <node ref="R22" pin="2" pintype="passive"/>
+      <node ref="R4" pin="1" pintype="passive"/>
+      <node ref="U1" pin="2" pintype="passive"/>
+      <node ref="U1" pin="3" pintype="passive"/>
+      <node ref="U2" pin="2" pinfunction="GND" pintype="power_in"/>
+      <node ref="U3" pin="3" pinfunction="GND" pintype="power_in"/>
+      <node ref="U6" pin="5" pinfunction="GND" pintype="power_in"/>
+    </net>
+    <net code="28" name="Net-(C13-Pad1)">
+      <node ref="C13" pin="1" pintype="passive"/>
+      <node ref="R12" pin="1" pintype="passive"/>
+    </net>
+    <net code="29" name="Net-(C21-Pad1)">
+      <node ref="C21" pin="1" pintype="passive"/>
+      <node ref="R27" pin="1" pintype="passive"/>
+    </net>
+    <net code="30" name="Net-(C22-Pad1)">
+      <node ref="C22" pin="1" pintype="passive"/>
+      <node ref="R28" pin="1" pintype="passive"/>
+    </net>
+    <net code="31" name="Net-(D1-A)">
+      <node ref="D1" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R2" pin="2" pintype="passive"/>
+      <node ref="R3" pin="1" pintype="passive"/>
+    </net>
+    <net code="32" name="Net-(D2-A)">
+      <node ref="D2" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R5" pin="2" pintype="passive"/>
+    </net>
+    <net code="33" name="Net-(D3-A)">
+      <node ref="D3" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R6" pin="2" pintype="passive"/>
+    </net>
+    <net code="34" name="Net-(D4-A)">
+      <node ref="D4" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R7" pin="2" pintype="passive"/>
+    </net>
+    <net code="35" name="Net-(D5-A)">
+      <node ref="C15" pin="2" pintype="passive"/>
+      <node ref="D5" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R14" pin="1" pintype="passive"/>
+      <node ref="U5" pin="4" pinfunction="V-" pintype="power_in"/>
+    </net>
+    <net code="36" name="Net-(D5-K)">
+      <node ref="C13" pin="2" pintype="passive"/>
+      <node ref="D5" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D6" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="37" name="Net-(D6-K)">
+      <node ref="C14" pin="1" pintype="passive"/>
+      <node ref="D6" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="D7" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="R13" pin="1" pintype="passive"/>
+    </net>
+    <net code="38" name="Net-(D7-K)">
+      <node ref="D7" pin="2" pinfunction="K" pintype="passive"/>
+      <node ref="U4" pin="2" pinfunction="IN" pintype="input"/>
+    </net>
+    <net code="39" name="Net-(D8-A)">
+      <node ref="D8" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q1" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R23" pin="1" pintype="passive"/>
+    </net>
+    <net code="40" name="Net-(D9-A)">
+      <node ref="D9" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q2" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R24" pin="1" pintype="passive"/>
+    </net>
+    <net code="41" name="Net-(D10-A)">
+      <node ref="D10" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q3" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R25" pin="1" pintype="passive"/>
+    </net>
+    <net code="42" name="Net-(D11-A)">
+      <node ref="D11" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="Q4" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R26" pin="1" pintype="passive"/>
+    </net>
+    <net code="43" name="Net-(D12-A)">
+      <node ref="D12" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D18" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D25" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="Q7" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R29" pin="1" pintype="passive"/>
+      <node ref="R35" pin="2" pintype="passive"/>
+    </net>
+    <net code="44" name="Net-(D12-K)">
+      <node ref="D12" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R29" pin="2" pintype="passive"/>
+      <node ref="T2" pin="4" pinfunction="OUT1A" pintype="passive"/>
+    </net>
+    <net code="45" name="Net-(D13-A)">
+      <node ref="D13" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D19" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D24" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="Q8" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R30" pin="1" pintype="passive"/>
+      <node ref="R36" pin="2" pintype="passive"/>
+    </net>
+    <net code="46" name="Net-(D14-A)">
+      <node ref="D14" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D16" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D27" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="Q5" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R31" pin="1" pintype="passive"/>
+      <node ref="R33" pin="2" pintype="passive"/>
+    </net>
+    <net code="47" name="Net-(D14-K)">
+      <node ref="D14" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R31" pin="2" pintype="passive"/>
+      <node ref="T1" pin="4" pinfunction="OUT1A" pintype="passive"/>
+    </net>
+    <net code="48" name="Net-(D15-A)">
+      <node ref="D15" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="D17" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D26" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="Q6" pin="1" pinfunction="G" pintype="input"/>
+      <node ref="R32" pin="1" pintype="passive"/>
+      <node ref="R34" pin="2" pintype="passive"/>
+    </net>
+    <net code="49" name="Net-(D15-K)">
+      <node ref="D15" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="R32" pin="2" pintype="passive"/>
+      <node ref="T1" pin="6" pinfunction="OUT2A" pintype="passive"/>
+    </net>
+    <net code="50" name="Net-(D16-A2)">
+      <node ref="C24" pin="1" pintype="passive"/>
+      <node ref="C27" pin="1" pintype="passive"/>
+      <node ref="D16" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="D20" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D27" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="D28" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="Q5" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q6" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="R33" pin="1" pintype="passive"/>
+      <node ref="R40" pin="2" pintype="passive"/>
+      <node ref="T1" pin="5" pinfunction="OUT1B" pintype="passive"/>
+    </net>
+    <net code="51" name="Net-(D18-A2)">
+      <node ref="C26" pin="1" pintype="passive"/>
+      <node ref="D18" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="D22" pin="1" pinfunction="A1" pintype="passive"/>
+      <node ref="D25" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="D30" pin="1" pinfunction="K" pintype="passive"/>
+      <node ref="J5" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q7" pin="3" pinfunction="S" pintype="passive"/>
+      <node ref="Q8" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="R35" pin="1" pintype="passive"/>
+      <node ref="R42" pin="2" pintype="passive"/>
+      <node ref="T2" pin="5" pinfunction="OUT1B" pintype="passive"/>
+    </net>
+    <net code="52" name="Net-(D20-A2)">
+      <node ref="C23" pin="2" pintype="passive"/>
+      <node ref="D20" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="D28" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R40" pin="1" pintype="passive"/>
+    </net>
+    <net code="53" name="Net-(D21-A2)">
+      <node ref="C24" pin="2" pintype="passive"/>
+      <node ref="D21" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="D29" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R41" pin="1" pintype="passive"/>
+    </net>
+    <net code="54" name="Net-(D22-A2)">
+      <node ref="C25" pin="2" pintype="passive"/>
+      <node ref="D22" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="D30" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R42" pin="1" pintype="passive"/>
+    </net>
+    <net code="55" name="Net-(D23-A2)">
+      <node ref="C26" pin="2" pintype="passive"/>
+      <node ref="D23" pin="2" pinfunction="A2" pintype="passive"/>
+      <node ref="D31" pin="2" pinfunction="A" pintype="passive"/>
+      <node ref="R43" pin="1" pintype="passive"/>
+    </net>
+    <net code="56" name="Net-(J2-Pin_1)">
+      <node ref="C23" pin="1" pintype="passive"/>
+      <node ref="C25" pin="1" pintype="passive"/>
+      <node ref="C28" pin="1" pintype="passive"/>
+      <node ref="J2" pin="1" pinfunction="Pin_1" pintype="passive"/>
+      <node ref="Q5" pin="2" pinfunction="D" pintype="passive"/>
+      <node ref="Q7" pin="2" pinfunction="D" pintype="passive"/>
+    </net>
+    <net code="57" name="Net-(J4-Pin_1)">
+      <node ref="C27" pin="2" pintype="passive"/>
+      <node ref="J4" pin="1" pinfunction="Pin_1" pintype="passive"/>
+    </net>
+    <net code="58" name="Net-(JP1-A)">
+      <node ref="JP1" pin="1" pinfunction="A" pintype="passive"/>
+      <node ref="JP2" pin="2" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="59" name="Net-(JP1-B)">
+      <node ref="C9" pin="1" pintype="passive"/>
+      <node ref="JP1" pin="3" pinfunction="B" pintype="passive"/>
+      <node ref="RV1" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="60" name="Net-(R3-Pad2)">
+      <node ref="R3" pin="2" pintype="passive"/>
+      <node ref="RV1" pin="1" pinfunction="1" pintype="passive"/>
+    </net>
+    <net code="61" name="Net-(R4-Pad2)">
+      <node ref="R4" pin="2" pintype="passive"/>
+      <node ref="RV1" pin="3" pinfunction="3" pintype="passive"/>
+    </net>
+    <net code="62" name="Net-(R15-Pad1)">
+      <node ref="R15" pin="1" pintype="passive"/>
+      <node ref="RV2" pin="1" pinfunction="1" pintype="passive"/>
+      <node ref="RV2" pin="2" pinfunction="2" pintype="passive"/>
+    </net>
+    <net code="63" name="Net-(U3-V_{OUT})">
+      <node ref="R9" pin="1" pintype="passive"/>
+      <node ref="U3" pin="2" pinfunction="V_{OUT}" pintype="output"/>
+    </net>
+    <net code="64" name="Net-(U4-OUT)">
+      <node ref="C16" pin="1" pintype="passive"/>
+      <node ref="R15" pin="2" pintype="passive"/>
+      <node ref="U4" pin="1" pinfunction="OUT" pintype="input"/>
+      <node ref="U5" pin="8" pinfunction="V+" pintype="power_in"/>
+    </net>
+    <net code="65" name="Net-(U5-+)">
+      <node ref="R16" pin="2" pintype="passive"/>
+      <node ref="RV2" pin="3" pinfunction="3" pintype="passive"/>
+      <node ref="U5" pin="2" pinfunction="+" pintype="input"/>
+    </net>
+    <net code="66" name="Net-(U5--)">
+      <node ref="C17" pin="1" pintype="passive"/>
+      <node ref="R17" pin="1" pintype="passive"/>
+      <node ref="U5" pin="3" pinfunction="-" pintype="input"/>
+    </net>
+    <net code="67" name="Net-(U6-A)">
+      <node ref="C18" pin="1" pintype="passive"/>
+      <node ref="R13" pin="2" pintype="passive"/>
+      <node ref="U6" pin="2" pinfunction="A" pintype="passive"/>
+    </net>
+    <net code="68" name="Net-(U6-C)">
+      <node ref="U5" pin="7" pintype="open_collector"/>
+      <node ref="U6" pin="3" pinfunction="C" pintype="passive"/>
+    </net>
+    <net code="69" name="unconnected-(M1-3V3-Pad38)">
+      <node ref="M1" pin="38" pinfunction="3V3" pintype="power_in+no_connect"/>
+    </net>
+    <net code="70" name="unconnected-(M1-NRST-Pad37)">
+      <node ref="M1" pin="37" pinfunction="NRST" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="71" name="unconnected-(M1-PA3{slash}USART2_RX-Pad28)">
+      <node ref="M1" pin="28" pinfunction="PA3/USART2_RX" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="72" name="unconnected-(M1-PA4{slash}SPI1_NSS-Pad29)">
+      <node ref="M1" pin="29" pinfunction="PA4/SPI1_NSS" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="73" name="unconnected-(M1-PA5{slash}SPI1_SCK-Pad30)">
+      <node ref="M1" pin="30" pinfunction="PA5/SPI1_SCK" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="74" name="unconnected-(M1-PA6{slash}SPI1_MISO-Pad31)">
+      <node ref="M1" pin="31" pinfunction="PA6/SPI1_MISO" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="75" name="unconnected-(M1-PA10{slash}USART1_RX-Pad7)">
+      <node ref="M1" pin="7" pinfunction="PA10/USART1_RX" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="76" name="unconnected-(M1-PA11-Pad8)">
+      <node ref="M1" pin="8" pinfunction="PA11" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="77" name="unconnected-(M1-PA12-Pad9)">
+      <node ref="M1" pin="9" pinfunction="PA12" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="78" name="unconnected-(M1-PA15{slash}SPI1_NSS-Pad10)">
+      <node ref="M1" pin="10" pinfunction="PA15/SPI1_NSS" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="79" name="unconnected-(M1-PB3{slash}SPI1_SCK-Pad11)">
+      <node ref="M1" pin="11" pinfunction="PB3/SPI1_SCK" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="80" name="unconnected-(M1-PB4{slash}SPI1_MISO-Pad12)">
+      <node ref="M1" pin="12" pinfunction="PB4/SPI1_MISO" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="81" name="unconnected-(M1-PB5{slash}SPI1_MOSI-Pad13)">
+      <node ref="M1" pin="13" pinfunction="PB5/SPI1_MOSI" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="82" name="unconnected-(M1-PB6{slash}USART1_TX-Pad14)">
+      <node ref="M1" pin="14" pinfunction="PB6/USART1_TX" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="83" name="unconnected-(M1-PB7{slash}USART1_RX-Pad15)">
+      <node ref="M1" pin="15" pinfunction="PB7/USART1_RX" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="84" name="unconnected-(M1-PB8-Pad16)">
+      <node ref="M1" pin="16" pinfunction="PB8" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="85" name="unconnected-(M1-PB9-Pad17)">
+      <node ref="M1" pin="17" pinfunction="PB9" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="86" name="unconnected-(M1-PB10{slash}USART3_TX-Pad35)">
+      <node ref="M1" pin="35" pinfunction="PB10/USART3_TX" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="87" name="unconnected-(M1-PC13-Pad22)">
+      <node ref="M1" pin="22" pinfunction="PC13" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="88" name="unconnected-(M1-PC14-Pad23)">
+      <node ref="M1" pin="23" pinfunction="PC14" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="89" name="unconnected-(M1-PC15-Pad24)">
+      <node ref="M1" pin="24" pinfunction="PC15" pintype="tri_state+no_connect"/>
+    </net>
+    <net code="90" name="unconnected-(M1-VBAT-Pad21)">
+      <node ref="M1" pin="21" pinfunction="VBAT" pintype="power_in+no_connect"/>
+    </net>
+    <net code="91" name="unconnected-(U5-BAL-Pad5)">
+      <node ref="U5" pin="5" pinfunction="BAL" pintype="input+no_connect"/>
+    </net>
+    <net code="92" name="unconnected-(U5-STRB-Pad6)">
+      <node ref="U5" pin="6" pinfunction="STRB" pintype="input+no_connect"/>
+    </net>
+    <net code="93" name="unconnected-(U6-NC-Pad1)">
+      <node ref="U6" pin="1" pinfunction="NC" pintype="no_connect"/>
+    </net>
+  </nets>
+</export>
