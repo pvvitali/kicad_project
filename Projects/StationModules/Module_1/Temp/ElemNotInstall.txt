@@ -1,0 +1,7 @@
+M1	BluePillStm32	Package_DIP:DIP-40_W15.24mm_Socket_LongPads
+Q5-Q8	STW20NM60	TO:TO-247-3_Horizontal_TabUp	600V 20A 290mΩ@10V,10A 192W N Channel TO-247-3 MOSFETs ROHS
+-----
+D6	20B100	Package_TO_SOT_THT:TO-247-3_Horizontal_TabUp
+-----
+D2	GBU15M	Diode_THT:Diode_Bridge_Vishay_GBU	240A 1.1V@15A 15A 1kV GBU Bridge Rectifiers ROHS
+M1	AC_DC_12V2A

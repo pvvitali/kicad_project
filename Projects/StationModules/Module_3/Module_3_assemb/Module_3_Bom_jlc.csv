@@ -1,0 +1,20 @@
+Reference,Value,Footprint,Description,LCSC,MFR.Part,Mounting,Qty
+C1,470uF 16V,Capacitor_THT:CP_Radial_D8.0mm_P3.50mm,"470uF 16V ±20% Plugin,D8xL11.5mm Aluminum Electrolytic Capacitors - Leaded ROHS",C432444,16YXJ470M8X11.5,Yes,1
+"C2, C3, C4",470nF,Capacitor_THT:C_Rect_L24.0mm_W10.9mm_P22.50mm_MKT,"470nF ±5% 400V Plugin,P=22.5mm Polypropylene Film Capacitors",C2803198,MPP474J2J20AJ22800,Yes,3
+"C5, C6",220pF,Capacitor_THT:C_Disc_D9.0mm_W5.0mm_P7.50mm,"±10% 220pF Y5P 2kV Plugin,P=7.5mm Ceramic Disc Capacitors",C249173,S07B1E221KN0B0S0N0,Yes,2
+C7,220uF 16V,Capacitor_THT:CP_Radial_D8.0mm_P3.50mm,"220uF ±20% 16V 8mm 11.5mm 3.5mm 400mA 100kHz 250mΩ 100kHz 7000Hrs @ 105℃ -40℃ ~ +105℃ ,8x11.5mm Aluminum Electrolytic Capacitors - Leaded RoHS",C334323,16YXF220MFFC8X11.5,Yes,1
+C8,1nF,Capacitor_SMD:C_1206_3216Metric,2kV 1nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS,C23631,CC1206KKX7RDBB102,Yes,1
+C9,4.7uF,Capacitor_THT:C_Rect_L29.0mm_W11.0mm_P27.50mm_MKT,"4.7uF ±5% 630V Plugin,P=26mm Polypropylene Film Capacitors (CBB) ROHS",C3019080,KP475J2J2603,Yes,1
+C10,0.1uF,Capacitor_SMD:C_1206_3216Metric,2kV 1nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS,C23631,CC1206KKX7RDBB102,Yes,1
+D1,B360,Diode_SMD:D_SMC,60V 700mV@3A 3A SMC(DO-214AB) Schottky Barrier Diodes (SBD),C110487,B360-13-F,Yes,1
+F1,Fuse,Fuse:Fuse_Littelfuse_395Series,Plug-in fuse 1A Plugin Fuses ROHS,C354900,2010T1A250V,Yes,1
+J1,Screw_Terminal_01x03,Z_connectors:DB129V-7.62-3P-GN-S,"1x3P 24A -40℃~+105℃ 250V Green 12~26 Straight pin 7.62mm 2.5 1 3 Plugin,P=7.62mm Screw terminal ROHS",C395859,DB129V-7.62-3P-GN-S,Yes,1
+J2,Screw_Terminal_01x02,Z_connectors:DB129V-7.62-2P-GN-S,"1x2P 24A -40℃~+105℃ 250V Green 12~26 Straight pin 7.62mm 2.5 1 2 Plugin,P=7.62mm Screw terminal ROHS",C395858,DB129V-7.62-2P-GN-S,Yes,1
+J3,,Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical,"2.54mm Straight 2x5P 5 Push - Pull 2.54mm 2 Plugin,P=2.54mm IDC Connectors ROHS",C5665,C5665,Yes,1
+"L1, L2",2X3.3mH 12A,Z_inductors:B82726S6123N020,Common Mode Chokes / Filters RING CORE CHOKE 2X3.3mH 12A,B82726S6123N020,B82726S6123N020,Yes,2
+L3,47uH,Z_inductors:L_12x12mm_H8mm,"47uH SMD,12.5x12.5mm Power Inductors ROHS",C2981394,MBH125-470M,Yes,1
+"R1, R2, R3, R4",75k,Resistor_SMD:R_1206_3216Metric,250mW Thick Film Resistors ±100ppm/℃ ±1% 75kΩ 1206 Chip Resistor - Surface Mount ROHS,C137234,RC1206FR-0775KL,Yes,4
+R5,1M,Resistor_SMD:R_1206_3216Metric,250mW Thick Film Resistors ±100ppm/℃ ±1% 1MΩ 1206 Chip Resistor - Surface Mount ROHS,C17927,1206W4F1004T5E,Yes,1
+"R6, R7, R8",330k,Resistor_SMD:R_1206_3216Metric,250mW Thick Film Resistors ±100ppm/℃ ±1% 330kΩ 1206 Chip Resistor - Surface Mount ROHS,C144497,AC1206FR-07330KL,Yes,3
+U1,LM2576S-5,Package_TO_SOT_SMD:TO-263-5_TabPin3,Step-down type Fixed 4V~40V 5V 3A TO-263-5 DC-DC Converters ROHS,C347413,LM2576S-5,Yes,1
+U2,PC814,Package_DIP:DIP-4_W7.62mm,"80V 5000V 50mA 0.1V@1mA,20mA 1 6V 1.2V DC DIP-4 Optocouplers - Phototransistor Output ROHS",C2833074,PC817X2YSZW,Yes,1

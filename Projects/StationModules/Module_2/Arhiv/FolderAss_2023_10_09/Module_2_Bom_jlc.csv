@@ -1,0 +1,45 @@
+Reference,Value,Footprint,Description,LCSC,MFR.Part,Mounting,Qty
+"C1, C2",22pF,Resistor_SMD:R_1206_3216Metric,2kV 22pF NP0 ±5% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS,C577126,CC1206JKNPODBN220,Yes,2
+"C3, C6, C7, C9, C14, C16, C19, C22, C26","0,1uF",Capacitor_SMD:C_1206_3216Metric,50V 100nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS,C82601,CC1206KRX7R9BB104,Yes,9
+C4,47uF 10v,Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B,47uF 10V 1Ω@100kHz ±10% CASE-B-3528 Tantalum Capacitors ROHS,C116617,T491B476K010AT,Yes,1
+C5,"0,68uF",Capacitor_SMD:C_1206_3216Metric,50V 680nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS,C145012,CC1206KKX7R9BB684,Yes,1
+C8,10pF,Capacitor_SMD:C_1206_3216Metric,500V 10pF NP0 ±5% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS,C469628,CC1206JRNPOBBN100,Yes,1
+"C10, C15",47uF 16v,Capacitor_THT:CP_Radial_D8.0mm_P5.00mm,"47uF 16V ±20% 73mA@120Hz Plugin,D5xL7mm Aluminum Electrolytic Capacitors - Leaded ROHS",C108854,16MS747MEFC5X7,Yes,2
+C11,100uF 16v,Capacitor_THT:CP_Radial_D8.0mm_P5.00mm,"100uF 16V 400mΩ@100kHz ±20% 250mA@100kHz Plugin,D5xL11mm Aluminum Electrolytic Capacitors - Leaded ROHS",C108735,16YXJ100M5X11,Yes,1
+C12,1000uF 6v3,Capacitor_THT:CP_Radial_D8.0mm_P5.00mm,"1000uF 6.3V ±20% Plugin,D8xL11.5mm Aluminum Electrolytic Capacitors - Leaded ROHS",C694350,6.3YXJ1000M8X11.5,Yes,1
+C13,"0,47uF",Capacitor_SMD:C_1206_3216Metric,50V 470nF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS,C277483,CC1206KKX7R9BB474,Yes,1
+C17,"0,15uF",Capacitor_SMD:C_1206_3216Metric,50V 150nF X7R ±5% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS,C2171172,CC1206JKX7R9BB154,Yes,1
+"C18, C21","4,7uF 16v",Capacitor_THT:CP_Radial_D8.0mm_P5.00mm,"4.7uF 50V ±20% Plugin,D5xL11mm Aluminum Electrolytic Capacitors - Leaded ROHS",C122950,50PX4R7MEFC5X11,Yes,2
+C20,"1,0uF",Capacitor_SMD:C_1206_3216Metric,50V 1uF X7R ±10% 1206 Multilayer Ceramic Capacitors MLCC - SMD/SMT ROHS,C107185,CC1206KKX7R9BB105,Yes,1
+C23,4n7,Capacitor_THT:C_Rect_L11.5mm_W5.2mm_P10.00mm_MKT,"4.7nF ±5% 630V Plugin,P=10mm Polypropylene Film Capacitors (CBB) ROHS",C506828,MPP472J2J10AJ22610,Yes,1
+"C24, C25",10uF,Capacitor_THT:C_Rect_L31.5mm_W15.0mm_P27.50mm_MKS4,"10uF ±5% 250V Plugin,P=27.5mm Polypropylene Film Capacitors (CBB) ROHS",C5116053,KP106J2E2701,Yes,2
+D1,,LED_THT:LED_D3.0mm,"green Plugin,D=3.2mm Light Emitting Diodes (LED) ROHS",C3001646,TLHG4400,Yes,1
+"D2, D3, D4, D5",LL4148,Diode_SMD:D_MiniMELF,75V 500mW 1V@10mA 4ns 150mA LL-34 Switching Diode ROHS,C2891733,LL4148,Yes,4
+"J1, J2, J10",Conn_01x03_Pin,Connector:FanPinHeader_1x03_P2.54mm_Vertical,"2.54mm Straight 2x5P 5 Push - Pull 2.54mm 2 Plugin,P=2.54mm IDC Connectors ROHS",C5665,C5665,Yes,3
+"J3, J4, J8",,Connector_IDC:IDC-Header_2x05_P2.54mm_Vertical,"Gold 250V 3A Straight Square Pins 2.54mm 3P 260℃ 6mm -40℃~+105℃ 3mm 2.54mm Brass Black Plugin 2.54mm 1x3P Plugin,P=2.54mm Pin Headers ROHS",C6332196,HB-PH3-25413PB2GOP,Yes,3
+JP1,Jumper_2_Open,Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical,"3A Straight 2.54mm -65℃~+125℃ 2.54mm 双排 Black Phosphor bronze 2.54mm Plugin,P=2.54mm Pin Headers ROHS",C213465,54102-T0600LF,Yes,1
+L1,100uH,Inductor_SMD:L_1206_3216Metric,100uH ±10% 1206 Inductors (SMD) ROHS,C128802,CMI321611J101KT,Yes,1
+L2,220uH  SMD,Inductor_SMD:L_Ferrocore_DLG-0403,"360mA 220uH ±20% SMD,4.5x4x3.2mm Power Inductors ROHS",C492283,CD43YP0403-221M,Yes,1
+"Q1, Q2, Q3",IRLML2803,Package_TO_SOT_SMD:SOT-23,"30V 1.2A 540mW 250mΩ@10V,910mA N Channel SOT-23 MOSFETs ROHS",C2590,IRLML2803TRPBF,Yes,3
+"R1, R2, R10, R12, R13",56,Resistor_SMD:R_1206_3216Metric,250mW Thick Film Resistors ±100ppm/℃ ±5% 56Ω 1206 Chip Resistor - Surface Mount ROHS,C134080,RC1206JR-0756RL,Yes,5
+R3,120,Resistor_SMD:R_1206_3216Metric,250mW Thick Film Resistors ±100ppm/℃ ±5% 100Ω 1206 Chip Resistor - Surface Mount ROHS,C113307,RC1206JR-07100RL,Yes,1
+"R4, R7, R9, R11, R14, R22, R23, R26",1k,Resistor_SMD:R_1206_3216Metric,250mW Thick Film Resistors ±100ppm/℃ ±5% 1kΩ 1206 Chip Resistor - Surface Mount ROHS,C112223,RC1206JR-071KL,Yes,8
+R5,4k7,Resistor_SMD:R_1206_3216Metric,250mW Thick Film Resistors ±100ppm/℃ ±5% 4.7kΩ 1206 Chip Resistor - Surface Mount ROHS,C136458,RC1206JR-074K7L,Yes,1
+R6,100,Resistor_SMD:R_1206_3216Metric,250mW Thick Film Resistors ±100ppm/℃ ±5% 100Ω 1206 Chip Resistor - Surface Mount ROHS,C113307,RC1206JR-07100RL,Yes,1
+"R8, R15",20k,Resistor_SMD:R_1206_3216Metric,250mW Thick Film Resistors ±100ppm/℃ ±5% 20kΩ 1206 Chip Resistor - Surface Mount ROHS,C137179,RC1206JR-0720KL,Yes,2
+"R16, R21, R25",10k,Resistor_SMD:R_1206_3216Metric,250mW Thick Film Resistors ±100ppm/℃ ±5% 10kΩ 1206 Chip Resistor - Surface Mount ROHS,C136460,RC1206JR-0710KL,Yes,3
+R18,0,Resistor_SMD:R_1206_3216Metric,250mW Thick Film Resistors ±800ppm/℃ ±1% 0Ω 1206 Chip Resistor - Surface Mount ROHS,C17888,1206W4F0000T5E,Yes,1
+R19,330k,Resistor_SMD:R_1206_3216Metric,250mW Thick Film Resistors ±100ppm/℃ ±1% 330kΩ 1206 Chip Resistor - Surface Mount ROHS,C17929,1206W4F3303T5E,Yes,1
+R20,39k,Resistor_SMD:R_1206_3216Metric,250mW Thick Film Resistors ±100ppm/℃ ±5% 39kΩ 1206 Chip Resistor - Surface Mount ROHS,C2907491,FRC1206J393 TS,Yes,1
+R24,1M,Resistor_SMD:R_1206_3216Metric,250mW Thick Film Resistors ±100ppm/℃ ±5% 1MΩ 1206 Chip Resistor - Surface Mount ROHS,C148194,RC1206JR-071ML,Yes,1
+"R27, R28",120,Resistor_THT:R_Axial_DIN0516_L15.5mm_D5.0mm_P20.32mm_Horizontal,120Ω 3W ±5% - Through Hole Resistors ROHS,C5200479,RSS3W120RJT76,Yes,2
+"R29, R30",22k,Resistor_SMD:R_1206_3216Metric,250mW Thick Film Resistors ±100ppm/℃ ±5% 22kΩ 1206 Chip Resistor - Surface Mount ROHS,C229910,AC1206JR-0722KL,Yes,2
+"R31, R32, R33, R34","0,01",Resistor_SMD:R_2816_7142Metric,2W ±75ppm/℃ ±1% 10mΩ 2816 Chip Resistor - Surface Mount ROHS,C843884,WSL2816R0100FEH,Yes,4
+RV1,200k,Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical,±10% ±100ppm/℃ 500mW 200kΩ Plugin Variable Resistors/Potentiometers ROHS,C58354,3296W-1-204LF,Yes,1
+RV2,5k,Potentiometer_THT:Potentiometer_Bourns_3296W_Vertical,±10% 5kΩ Plugin Variable Resistors/Potentiometers ROHS,C118907,3296W-1-502,Yes,1
+U1,ADM1485AR,Package_SO:SOIC-8_3.9x4.9mm_P1.27mm,transceiver 30Mbps 1/1 SOP-8 RS-485/RS-422 ICs ROHS,C494990,ADM1485ARZ-REEL,Yes,1
+U2,STM8S105K4T6C,Package_QFP:LQFP-32_7x7mm_P0.8mm,25 STM8 16MHz 2.95V~5.5V 2KB FLASH 16KB LQFP-32(7x7) Microcontroller Units (MCUs/MPUs/SOCs) ROHS,C8736,STM8S105K4T6C,Yes,1
+U3,PC817,Package_DIP:DIP-4_W7.62mm,"80V 5000V 50mA 0.1V@1mA,20mA 1 6V 1.2V DC DIP-4 Optocouplers - Phototransistor Output ROHS",C2833074,PC817X2YSZW,Yes,1
+U4,LM2904,Package_SO:SO-8_3.9x4.9mm_P1.27mm,1MHz 7V SOIC-8 Operational Amplifier ROHS,C2941725,LM2904,Yes,1
+U5,LM358,Package_SO:SO-8_3.9x4.9mm_P1.27mm,SOP-8 Operational Amplifier ROHS,C2683482,LM358D,Yes,1
+Y1,16MHz,Crystal:Crystal_HC49-4H_Vertical,16MHz ±30ppm HC-49S Crystals ROHS,C295075,XIHCELNANF-16MHZ,Yes,1
