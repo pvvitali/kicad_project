@@ -64,11 +64,11 @@
       39,
       40
     ],
-    "visible_layers": "ffcffff_ffffffff",
+    "visible_layers": "fffffff_ffffffff",
     "zone_display_mode": 0
   },
   "meta": {
-    "filename": "Module_2.kicad_prl",
+    "filename": "Shema3.kicad_prl",
     "version": 3
   },
   "project": {
